@@ -6,10 +6,11 @@ heroImageUrl: "/images/headshotbw.jpg"
 ---
 
 div class: "hero-unit text-center", ->
-	p "I'm a developer advocate and program manager for Microsoft DPE based in Illinois. A Chicago native who can’t spell, Clark as a kid actually made his money building cars, getting grease under his nails. That art of building would later lead him to software development where he drinks the Web and Mobile Development Kool-Aid. At Microsoft, Clark spends his days working with Global ISVs helping them deliver their top products leveraging Windows 8, Windows Phone and Windows Azure. As of that wasn’t enough, Clark is the co-founder of a polyglot software development conference called That Conference http://ThatConference.com. You can check out his blog at http://csell.net or find his family cruising around in their 1968 Camaro SS."
+	p "I'm a husband, a father, a geek. Love to sling code, and even love design and typography. I'm currently playing Program Manger at Microsoft. I founded an awesome conference, That Conference. I wrench on cars and live in the midwest."
+	p "Regardless, I'm just a guy."
 
 div class: "row", ->
-	div class: "col-md-6", ->
+	div class: "col-md-7", ->
 		div class: "row", ->
 			header class: "col-md-12", ->
 				h1 ->
@@ -18,14 +19,16 @@ div class: "row", ->
 						" Articles"
 
 			for document in @getCollection('posts').toJSON().slice(0,5)
-				article class: "col-md-12", ->
+				article class: "col-md-12 articleList", ->
 					h3 -> 
 						a href: document.url, document.title
 
 					p document.subTitle
-					p class: "text-right text-muted", document.date.toDateString()
+					h6 class: "text-right text-muted", ->
+						em document.date.toDateString()
+					
 
-	div class: "col-md-5 col-md-offset-1", ->
+	div class: "col-md-3 col-md-offset-2", ->
 		## Social Info
 		div class: "row", ->
 			header class: "col-md-12", ->
