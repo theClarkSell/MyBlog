@@ -30,7 +30,7 @@ html ->
 
         div class: "nav", ->
           div class: "navbar navbar-default navbar-static-top navbar-left", ->
-            a class: "navbar-brand", href: "/", "Clark."
+            a class: "navbar-brand", href: "/", "Clark ;"
 
             button
               type: "button"
