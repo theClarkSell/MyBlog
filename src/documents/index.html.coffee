@@ -16,7 +16,7 @@ div class: "row articleList", ->
 				h1 ->
 					div href: "/pages/Articles", ->
 						span class: "glyphicon glyphicon-align-left"
-						" Articles"
+						" blog posts"
 
 			for document in @getCollection('posts').toJSON().slice(0,5)
 				article class: "col-md-12", ->
