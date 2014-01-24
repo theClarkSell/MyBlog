@@ -6,20 +6,20 @@ heroImageUrl: "/images/headshotbw.jpg"
 ---
 
 div class: "hero-unit text-center", ->
-	p "I'm a husband, a father, a geek. Love to sling code, and even love design and typography. I'm currently playing Program Manger at Microsoft. I founded an awesome conference, That Conference. I wrench on cars and live in the midwest."
+	p "I'm a proud husband, a father, a geek. I love to create; code, pixels, experiences and share them with others. I'm currently playing Program Manger at Microsoft. I founded an awesome conference, That Conference. Yes, That Conference. I wrench on old muscle cars and live in the great Midwest."
 	p "Regardless, I'm just a guy."
 
-div class: "row", ->
+div class: "row articleList", ->
 	div class: "col-md-7", ->
 		div class: "row", ->
 			header class: "col-md-12", ->
 				h1 ->
-					a href: "/pages/Articles", ->
+					div href: "/pages/Articles", ->
 						span class: "glyphicon glyphicon-align-left"
 						" Articles"
 
 			for document in @getCollection('posts').toJSON().slice(0,5)
-				article class: "col-md-12 articleList", ->
+				article class: "col-md-12", ->
 					h3 -> 
 						a href: document.url, document.title
 
