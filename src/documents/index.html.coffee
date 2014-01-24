@@ -28,37 +28,37 @@ div class: "row articleList", ->
 						em document.date.toDateString()
 					
 
-	div class: "col-md-3 col-md-offset-2", ->
+	div class: "col-md-3 col-md-offset-2 text-center", ->
 		## Social Info
-		div class: "row", ->
-			header class: "col-md-12", ->
-				h1 ->
-					span class: "glyphicon glyphicon-user"
-					" Get In Touch"
-
-			article class: "col-md-12", ->
-				h2 -> 
-					a "hi there...."
-				p "Bacon ipsum dolor sit amet frankfurter capicola fatback cow spare ribs. Chicken capicola turducken pork beef biltong ground round prosciutto swine shankle."
+		div class: "row col-md-12", ->
+			
+			div class: "col-md-12", ->
+				span class: "glyphicon glyphicon-user resizeIcon"
+			
+			h1 class: "col-md-12", ->
+				"Get Social"
+			
+			p class: "col-md-12", ->
+				"Bacon ipsum dolor sit amet frankfurter capicola fatback cow spare ribs. Chicken capicola turducken pork beef biltong ground round prosciutto swine shankle."
 
 		## That Conference
-		div class: "row", ->
-			header class: "col-md-12", ->
-				h1 ->
-					img src: "/images/tclogo.png"
-					" 8/11 - 8/13"
-
-			article class: "col-md-12", ->
-				p "Bacon ipsum dolor sit amet frankfurter capicola fatback cow spare ribs. Chicken capicola turducken pork beef biltong ground round prosciutto swine shankle."
+		div class: "row col-md-12", ->
+			h1 ->
+				img src: "/images/tclogo.png"
+			h2 "8/11 - 8/13"
+			p ->
+				"Bacon ipsum dolor sit amet frankfurter capicola fatback cow spare ribs. Chicken capicola turducken pork beef biltong ground round prosciutto swine shankle."
 
 		## 31 Days
 		div class: "row", ->
-			header class: "col-md-12", ->
-				h1 ->
-					span class: "glyphicon glyphicon-th-large"
-					" 31 Days of Windows 8"
-
-			article class: "col-md-12", ->
-				h2 -> 
-					a "hi there...."
-				p "Bacon ipsum dolor sit amet frankfurter capicola fatback cow spare ribs. Chicken capicola turducken pork beef biltong ground round prosciutto swine shankle."
+			
+			div class: "col-md-12", ->
+				span class: "glyphicon glyphicon-th-large resizeIcon"
+			
+			h3 class: "col-md-12", -> 
+				"31 Days of Windows 8"
+			
+			p class: "col-md-12", -> 
+				"Do you want to quickly learn how to build apps for Windows 8? I break it down for you from File New Project to publishing to the store."
+			
+			a class: "col-md-12 text-right", "get started...."
