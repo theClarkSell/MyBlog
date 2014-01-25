@@ -5,9 +5,10 @@ html ->
     meta charset: "utf-8"
     meta "http-equiv": "content-type", "content": "text/html; charset=utf-8"
     meta "http-equiv": "X-UA-Compatible", "content": "IE=edge,chrome=1"
+    
     meta "name": "description", "content": @getPreparedDescription()
     meta "name": "keywords", "content": @getPreparedKeywords()
-    meta "name": "author", "content": @site.author or 'Tadeusz Łazurski'
+    meta "name": "author", "content": @site.author
     text @getBlock('meta').toHTML()
     meta "name": "viewport", "content": "width=device-width, initial-scale=1.0"
 

@@ -16,8 +16,7 @@ docpadConfig = {
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.website.com',
-				'website.herokuapp.com'
+				'www.csell.net',
 			]
 
 			# The default title of our website
@@ -25,12 +24,12 @@ docpadConfig = {
 
 			# The website description (for SEO)
 			description: """
-				When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+				Clark Sell's deep thoughts with a few spelling erros.
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
+				Clark Sell, csell5, That Conference, 31 Days
 				"""
 
 			# The website author's name
@@ -73,7 +72,7 @@ docpadConfig = {
 		# Get the prepared site/document description
 		getPreparedDescription: ->
 			# if we have a document description, then we should use that, otherwise use the site's description
-			@document.description or @site.description
+			@document.subTitle or @site.description
 
 		# Get the prepared site/document keywords
 		getPreparedKeywords: ->
@@ -101,7 +100,7 @@ docpadConfig = {
 		livereload:
             enabled: true
         cleanurls:
-                    trailingSlashes: true
+        	trailingSlashes: true
 
 	# =================================
 	# DocPad Events

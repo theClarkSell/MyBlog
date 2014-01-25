@@ -4,7 +4,11 @@ layout: default
 
 article id: "post", class: "post", ->
   
-  div class: "post-content container", @content
+  div class: "post-content container", 
+    div class: "text-muted text-right", ->
+        @document.date.toDateString()
+    div ->
+      @content
 
   if @document.relatedDocuments and @document.relatedDocuments.length
     section id: "related", ->

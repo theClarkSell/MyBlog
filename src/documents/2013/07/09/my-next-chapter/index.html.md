@@ -5,6 +5,7 @@ subTitle: "Microsoft part 3. Consultant, Evangelist, now Program Manager in Redm
 date: 2013-07-09
 heroImageUrl: "/images/unsplash_clock.jpg"
 tags: ['That Conference', 'Career']
+keywords: ['a', 'b']
 ---
 
 I have a new <strike>job</strike> role!!!
