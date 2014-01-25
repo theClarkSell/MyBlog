@@ -41,7 +41,7 @@ div class: "row articleList", ->
 						img class: "img-responsive resizeMe", src: "/icons/t.png"
 				li ->
 					a href: "http://twitter.com", ->
-						img class: "img-responsive resizeMe", src: "/icons/g+.png"
+						img class: "img-responsive resizeMe", src: "/icons/goog.png"
 				li ->
 					a href: "http://twitter.com", ->
 						img class: "img-responsive resizeMe", src: "/icons/flick.png"
