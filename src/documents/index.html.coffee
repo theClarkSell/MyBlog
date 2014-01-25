@@ -66,4 +66,4 @@ div class: "row articleList", ->
 			p "Do you want to quickly learn how to build apps for Windows 8? I break it down for you from File New Project to publishing to the store."
 			
 			div class: "text-right", ->
-				a "get started...."
+				a href: "/pages/31DaysOfWindows8", "get started...."
