@@ -6,7 +6,7 @@ heroImageUrl: "/images/headshotbw.jpg"
 ---
 
 div class: "hero-unit text-center", ->
-	p "I'm a proud husband, a father, a geek. I love to create; code, pixels, experiences and share them with others. I'm currently playing Program Manger at Microsoft. I founded an awesome conference, That Conference. Yes, That Conference. I wrench on old muscle cars and live in the great Midwest."
+	p "I'm a proud husband, a father, a geek. I love to create; code, pixels, experiences and share them with others. I'm currently playing Program Manager at Microsoft. I founded an awesome conference, That Conference. Yes, That Conference. I wrench on old muscle cars and live in the great Midwest."
 	p "Regardless, I'm just a guy."
 
 div class: "row articleList", ->
@@ -28,37 +28,42 @@ div class: "row articleList", ->
 						em document.date.toDateString()
 					
 
-	div class: "col-md-3 col-md-offset-2 text-center", ->
+	div class: "col-md-3 col-md-offset-2 text-center home-sidebar", ->
 		## Social Info
-		div class: "row col-md-12", ->
-			
-			div class: "col-md-12", ->
-				span class: "glyphicon glyphicon-user resizeIcon"
-			
-			h1 class: "col-md-12", ->
-				"Get Social"
-			
-			p class: "col-md-12", ->
-				"Bacon ipsum dolor sit amet frankfurter capicola fatback cow spare ribs. Chicken capicola turducken pork beef biltong ground round prosciutto swine shankle."
+		article class: "row", ->	
+		
+			ul class: "list-inline", ->
+				li ->	
+					a href: "http://twitter.com", -> 
+						img class: "img-responsive resizeMe", src: "/icons/rss.png"
+				li ->
+					a href: "http://twitter.com", ->
+						img class: "img-responsive resizeMe", src: "/icons/t.png"
+				li ->
+					a href: "http://twitter.com", ->
+						img class: "img-responsive resizeMe", src: "/icons/g+.png"
+				li ->
+					a href: "http://twitter.com", ->
+						img class: "img-responsive resizeMe", src: "/icons/flick.png"
 
 		## That Conference
-		div class: "row col-md-12", ->
-			h1 ->
-				img src: "/images/tclogo.png"
-			h2 "8/11 - 8/13"
-			p ->
-				"Bacon ipsum dolor sit amet frankfurter capicola fatback cow spare ribs. Chicken capicola turducken pork beef biltong ground round prosciutto swine shankle."
+		article class: "row", ->
+			a href: "http://thatconference.com", ->
+				img class: "tcLogoResize", src: "/images/tcColorLogo.png"
+
+			h1 "8/11 - 8/13"
+			p "A polyglot developers geekdom for you and your little geekings."
+			p "All in a giant waterpark."
 
 		## 31 Days
-		div class: "row", ->
+		article class: "row", ->
 			
-			div class: "col-md-12", ->
+			div ->
 				span class: "glyphicon glyphicon-th-large resizeIcon"
 			
-			h3 class: "col-md-12", -> 
-				"31 Days of Windows 8"
+			h3 "31 Days of Windows 8"
 			
-			p class: "col-md-12", -> 
-				"Do you want to quickly learn how to build apps for Windows 8? I break it down for you from File New Project to publishing to the store."
+			p "Do you want to quickly learn how to build apps for Windows 8? I break it down for you from File New Project to publishing to the store."
 			
-			a class: "col-md-12 text-right", "get started...."
+			div class: "text-right", ->
+				a "get started...."
