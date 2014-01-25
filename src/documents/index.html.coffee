@@ -14,7 +14,7 @@ div class: "row articleList", ->
 		div class: "row", ->
 			header class: "col-md-12", ->
 				h1 ->
-					div href: "/pages/Articles", ->
+					a href: "/pages/Articles", ->
 						span class: "glyphicon glyphicon-align-left"
 						" blog posts"
 
@@ -34,26 +34,30 @@ div class: "row articleList", ->
 		
 			ul class: "list-inline", ->
 				li ->	
-					a href: "http://twitter.com", -> 
+					a href: "/feed/", -> 
 						img class: "img-responsive resizeMe", src: "/icons/rss.png"
 				li ->
-					a href: "http://twitter.com", ->
+					a href: "http://twitter.com/csell5/", ->
 						img class: "img-responsive resizeMe", src: "/icons/t.png"
 				li ->
-					a href: "http://twitter.com", ->
+					a href: "http://plus.google.com/+ClarkSell/", ->
 						img class: "img-responsive resizeMe", src: "/icons/goog.png"
 				li ->
-					a href: "http://twitter.com", ->
+					a href: "http://flickr.com/csell5/", ->
 						img class: "img-responsive resizeMe", src: "/icons/flick.png"
 
 		## That Conference
 		article class: "row", ->
-			a href: "http://thatconference.com", ->
-				img class: "tcLogoResize", src: "/images/tcColorLogo.png"
+			div class: "imageAnchor", -> 
+				a href: "http://thatconference.com", ->
+					img class: "tcLogoResize", src: "/images/tcColorLogo.png"
 
 			h1 "8/11 - 8/13"
 			p "A polyglot developers geekdom for you and your little geekings."
 			p "All in a giant waterpark."
+
+			div class: "text-right", ->
+				a href: "/pages/ThatConference", "learn more..."
 
 		## 31 Days
 		article class: "row", ->
@@ -66,4 +70,4 @@ div class: "row articleList", ->
 			p "Do you want to quickly learn how to build apps for Windows 8? I break it down for you from File New Project to publishing to the store."
 			
 			div class: "text-right", ->
-				a href: "/pages/31DaysOfWindows8", "get started...."
+				a href: "/pages/31DaysOfWindows8", "get started..."

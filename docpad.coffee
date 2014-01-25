@@ -100,6 +100,8 @@ docpadConfig = {
 	plugins:
 		livereload:
             enabled: true
+        cleanurls:
+                    trailingSlashes: true
 
 	# =================================
 	# DocPad Events

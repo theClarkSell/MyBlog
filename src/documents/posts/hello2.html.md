@@ -2,7 +2,7 @@
 title: This is a Hello Blog Post
 subTitle: "This is just one awesome subtitle about what we're going to talk about here"
 layout: post
-tags: ['intro','post']
+tags: ['intro', 'That Conference']
 heroImageUrl: "/images/unsplash_tree.jpg"
 ```
 

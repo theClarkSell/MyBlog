@@ -4,6 +4,7 @@ title: My Next Chapter
 subTitle: "Microsoft part 3. Consultant, Evangelist, now Program Manager in Redmond working from Chicago."
 date: 2013-07-09
 heroImageUrl: "/images/unsplash_clock.jpg"
+tags: ['That Conference', 'Career']
 ---
 
 I have a new <strike>job</strike> role!!!
