@@ -1,7 +1,7 @@
 $ ->
 	$.stellar
 		verticalScrolling: true
-		verticalOffset: 700
+		verticalOffset: 500
 		horizontalOffset: 50
 		#responsive: true
 		scrollProperty: 'scroll'
