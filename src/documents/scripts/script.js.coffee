@@ -1,6 +1,10 @@
 $ ->
-	$.stellar({
-		offsetParrent: true
+	$.stellar
+		verticalScrolling: true
+		verticalOffset: 700
 		horizontalOffset: 50
-		verticalOffset: 300	
-	})
+		#responsive: true
+		scrollProperty: 'scroll'
+		parallaxBackgrounds: true
+		parallaxElements: false
+	
