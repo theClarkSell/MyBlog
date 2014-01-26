@@ -2,7 +2,7 @@ $ ->
 	$.stellar
 		verticalScrolling: true
 		verticalOffset: 500
-		horizontalOffset: 50
+		horizontalOffset: 75
 		#responsive: true
 		scrollProperty: 'scroll'
 		parallaxBackgrounds: true
