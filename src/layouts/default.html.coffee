@@ -27,7 +27,7 @@ html ->
   body ->
     div id: "bodyWrapper", -> 
 
-      header id: "pageHeader", data: {'stellar-background-ratio': '2'}, style: "background-image: url(" + ( @document.heroImageUrl or '/images/headshotbw.jpg' )+ ");", ->
+      header id: "pageHeader", data: {'stellar-background-ratio': '1.5'}, style: "background-image: url(" + ( @document.heroImageUrl or '/images/headshotbw.jpg' )+ ");", ->
 
         div class: "nav", ->
           div class: "navbar navbar-default navbar-static-top navbar-left", ->
