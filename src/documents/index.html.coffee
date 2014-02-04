@@ -2,7 +2,7 @@
 layout: 'default'
 title: 'Clark Sell'
 subTitle: 'deep thoughts with a few spelling erros.'
-heroImageUrl: "/images/headshot-bw.png"
+heroImageUrl: "/images/headshot-bw-crop.jpg"
 ---
 
 div class: "hero-unit text-center", ->
