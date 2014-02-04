@@ -2,7 +2,7 @@
 title: Articles
 layout: page
 pageOrder: 3
-heroImageUrl: "/images/unsplash_desk.jpg"
+heroImageUrl: "/images/unsplash_desk.png"
 ---
 
 currentYear = ""
