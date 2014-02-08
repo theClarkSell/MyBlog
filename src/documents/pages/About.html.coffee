@@ -1,9 +1,11 @@
 ```
-title: About
-subTitle: 'why not learn a little more?'
-layout: page
-tags: ['intro','page']
-pageOrder: 1
+"title": "About"
+"subTitle": "why not learn a little more?""
+"layout": "page"
+"tags": ['intro','page']
+"pageOrder": 1
+"heroImageUrl": "/images/about_crop.jpg"
+"keywords": ['Clark Sell', 'About']
 ```
 
 

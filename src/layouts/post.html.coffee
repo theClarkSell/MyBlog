@@ -5,7 +5,7 @@ layout: default
 article id: "post", class: "post", ->
   
   div class: "post-content container", 
-    div class: "text-muted text-right", ->
+    div class: "date text-muted text-right", ->
         @document.date.toDateString()
     div ->
       @content

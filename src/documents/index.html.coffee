@@ -28,7 +28,7 @@ div class: "row articleList", ->
 						em document.date.toDateString()
 					
 
-	div class: "col-md-3 col-md-offset-2 text-center home-sidebar", ->
+	aside class: "col-md-3 col-md-offset-2 text-center", ->
 		## Social Info
 		article class: "row", ->	
 		
