@@ -52,30 +52,19 @@ body
 		font-size xx-large
 
 #contentBody
+	margin-top 50px	
 	padding-bottom 50px
 	
-#contentBody:before
-	margin-top 25px	
-
-.page-content:before
-	margin-top 25px	
-
-.post
-	margin-top 25px
-	margin-bottom 25px	
-
 .post .date
 	margin-bottom 25px
 
 .articleList
 	margin-bottom 25px
-
-.articleList 
-	header
+	
+	article
 		margin-bottom 25px
 
-.articleList 
-	article
+	header
 		margin-bottom 25px
 
 // -----
@@ -101,7 +90,18 @@ body
 		font-weight 200
 		border-bottom 2px solid #e1e1e1
 		&:hover
-			border-bottom 2px solid #FF4E00
+			border-bottom 2px solid #FF4E00	
+
+	.post figure a
+		border-bottom 0px
+		&:hover
+			border-bottom 0px
+
+figcaption
+	font-weight 200
+	font-size medium
+	font-style italic
+
 
 // ------
 // IMAGES
@@ -126,8 +126,7 @@ aside
 
 	p, h1
 		margin-bottom 25px
-
-
+	
 #footer
 	line-height normal
 	height 30px

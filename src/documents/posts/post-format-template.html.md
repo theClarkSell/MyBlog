@@ -79,7 +79,7 @@ What if you want to put an anchor tag on your image?
 ## Image **Left**
 Bacon ipsum dolor sit amet pork belly t-bone short loin, venison pork loin beef ribs ground round fatback ham hock capicola pig shoulder landjaeger doner. Cow beef ribs chicken turducken brisket short loin. Capicola salami tenderloin, pork chop tongue turkey hamburger ball tip. Cow ribeye swine strip steak, turducken prosciutto bacon biltong brisket frankfurter. Jowl pastrami tenderloin beef ribs bacon short loin, ribeye ground round sausage ball tip turducken jerky kevin meatball. Short loin porchetta pig pancetta.
 
-<figure class="text-left imageAnchor">
+<figure id="foo" class="text-left">
   	<a href="http://ThatConf.com"> 
   		<img src="/images/tcLogo.png" alt="That Conference"/>
 	</a>
