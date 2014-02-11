@@ -13,7 +13,6 @@ article id: "post", class: "post", ->
   div id: "disqus", ->
     @partial('disqus')
 
-
   if @document.relatedDocuments and @document.relatedDocuments.length
     section id: "related", ->
       h3 "Related Posts"
