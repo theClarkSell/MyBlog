@@ -146,6 +146,5 @@ docpadConfig = {
 					next()
 }
 
-
 # Export our DocPad Configuration
 module.exports = docpadConfig
