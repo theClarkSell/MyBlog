@@ -1,6 +1,7 @@
 ---
-layout: 'default'
-title: '500 Internal Server Error'
+layout: "default"
+title: "500 Internal Server Error"
+subTitle: "Mayday Captin! It looks like we lost an engine."
 dynamic: true
 ---
 

@@ -18,6 +18,9 @@ div class: "row articleList", ->
 						span class: "glyphicon glyphicon-align-left"
 						" blog posts"
 
+			article class: "col-md-12", ->
+				@partial('search')
+
 			for document in @getCollection('posts').toJSON().slice(0,5)
 				article class: "col-md-12", ->
 					h3 -> 
@@ -34,7 +37,7 @@ div class: "row articleList", ->
 		
 			ul class: "list-inline", ->
 				li ->	
-					a href: "/feed/", -> 
+					a href: "/feed/index.xml", -> 
 						img class: "img-responsive resizeMe", src: "/icons/rss.png"
 				li ->
 					a href: "http://twitter.com/csell5/", ->
@@ -45,6 +48,7 @@ div class: "row articleList", ->
 				li ->
 					a href: "http://flickr.com/csell5/", ->
 						img class: "img-responsive resizeMe", src: "/icons/flick.png"
+
 
 		## That Conference
 		article class: "row", ->
@@ -63,7 +67,8 @@ div class: "row articleList", ->
 		article class: "row", ->
 			
 			div ->
-				span class: "glyphicon glyphicon-th-large resizeIcon"
+				a href: "/pages/31DaysOfWindows8", ->
+					span class: "glyphicon glyphicon-th-large resizeIcon"
 			
 			h3 "31 Days of Windows 8"
 			

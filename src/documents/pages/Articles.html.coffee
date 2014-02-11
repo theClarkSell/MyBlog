@@ -5,6 +5,9 @@ pageOrder: 3
 heroImageUrl: "/images/unsplash_desk_crop.jpg"
 ---
 
+div id: "articleSearch", class: "col-md-4 col-md-offset-8", ->
+	@partial('search')
+
 currentYear = ""
 
 for document in @getCollection('posts').toJSON()

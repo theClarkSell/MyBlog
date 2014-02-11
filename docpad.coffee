@@ -40,21 +40,29 @@ docpadConfig = {
 
 			# Styles
 			styles: [
-				#"//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
-				"http://fonts.googleapis.com/css?family=Source+Code+Pro:200,400"
+				#"http://fonts.googleapis.com/css?family=Source+Code+Pro:200,400"
 				"/styles/bootstrap.css"
 				"/styles/style.css"
 			]
 			# Scripts
 			scripts: [
-				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
-				"//code.jquery.com/jquery-2.1.0.min.js"
-				"//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"
+				#"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
+				#"//code.jquery.com/jquery-2.1.0.min.js"
+				#"//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"
+				
+				"/scripts/modernizr.min.js"
+				"/scripts/jquery-2.1.0.min.js"
+				"/scripts/bootstrap.min.js"
+				
 				"/scripts/jquery.stellar.min.js"
 				"/scripts/script.js"
 			]
 
+		# Discus.com settings
+		disqusShortName: '??'
 
+		# Google+ settings
+		googlePlusId: '??'
 
 		# -----------------------------
 		# Helper Functions
