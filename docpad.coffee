@@ -59,7 +59,7 @@ docpadConfig = {
 			]
 
 		# Discus.com settings
-		disqusShortName: '??'
+		disqusShortName: 'csell5'
 
 		# Google+ settings
 		googlePlusId: '??'
@@ -87,6 +87,12 @@ docpadConfig = {
 		getPreparedKeywords: ->
 			# Merge the document keywords with the site keywords
 			@site.keywords.concat(@document.keywords or []).join(', ')
+
+		getPageUrlWithHostname: ->
+			"#{@site.url}#{@document.url}"
+
+		getJavascriptEncodedTitle: (title) ->
+			title.replace("'", "\\'")
 
 		moment: require('moment')
 
