@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "31 Days of Windows 8 | Day #31: Design"
+subTitle: "Let's face it. Your design could use a few tweaks."
 date: 2012-12-01
 tags: ["31 Days","Design","Metro","Windows 8"]
 ---
