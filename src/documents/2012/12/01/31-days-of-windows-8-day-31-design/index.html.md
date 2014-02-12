@@ -4,6 +4,7 @@ title: "31 Days of Windows 8 | Day #31: Design"
 subTitle: "Let's face it. Your design could use a few tweaks."
 date: 2012-12-01
 tags: ["31 Days","Design","Metro","Windows 8"]
+heroImageUrl: "/images/unsplash_cars_crop.jpg"
 ---
 
 This article is Day #31 in a series called [31 Days of Windows 8](http://31daysofwindows8.com/). Each of the articles in this series will be published for both [HTML5/JS](http://csell.net/category/windows-8/31-days/) and [XAML/C#](http://www.jeffblankenburg.com/category/31-days-of-windows-8/). You can find additional resources, downloads, and source code on our [website](http://www.31daysofwindows8.com/).
