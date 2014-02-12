@@ -88,7 +88,9 @@ As you can see, an app that is dedicated to reading only uses about 30% of the s
 
 # Hierarchical Navigation
 
-In this style of navigation, we work in a hub-and-spokes model, where the users' choices move them further and futher from the home page, and using the back button allows them to return backwards through their path before choosing another branch of the tree to travel down. Like this: ![31-XAML-Hierarchical](31-XAML-Hierarchical.png "31-XAML-Hierarchical") 
+In this style of navigation, we work in a hub-and-spokes model, where the users' choices move them further and futher from the home page, and using the back button allows them to return backwards through their path before choosing another branch of the tree to travel down. Like this: 
+
+![31-XAML-Hierarchical](31-XAML-Hierarchical.png "31-XAML-Hierarchical") 
 
 We build pages with a master/detail structure so that navigation is intuitive and simple to use. The user should always know where they are in the app, without having to lay an elaborate trail of breadcrumbs for them. They should be diving into deeper and deeper detail about the original choice they made. The default News application in Windows 8 is a great example of this hierarchy.
 

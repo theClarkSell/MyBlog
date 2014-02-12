@@ -61,9 +61,6 @@ docpadConfig = {
 		# Discus.com settings
 		disqusShortName: 'csell5'
 
-		# Google+ settings
-		googlePlusId: '??'
-
 		# -----------------------------
 		# Helper Functions
 
