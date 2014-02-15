@@ -54,7 +54,7 @@ All of the Visual Studio templates for the Windows Store create the shell of an 
 
 [![](image_thumb79.png "image")](image80.png)
 
-Like it or not, the first thing your potential customer will see is an image of your application&nbsp; in the store. In fact, there are a number of different images your user might see depending on where the store app has placed your application.
+Like it or not, the first thing your potential customer will see is an image of your application in the store. In fact, there are a number of different images your user might see depending on where the store app has placed your application.
 
 Now mind you, this is all before your potential customer has even installed it, so make sure you have some great store appeal is a good thing. 
 
@@ -78,7 +78,7 @@ Another very popular mechanism for making money is an ad supported model. This i
 
 Lastly offering the ability for an [in app purchase](http://msdn.microsoft.com/en-us/library/windows/apps/hh694067.aspx) shouldn't be out of your reach either. Using a game app example, one could offer more levels once the user got to a particular point in their journey just for a bit more money. I personally think this is a pretty interesting scenario as it gives you the ability to get people using your app, but offers them the ability to purchase something more full featured.
 
-Now when you're making most of the money, the Microsoft Store is doing all of this legwork for you, hosting the bits, transitions, currency conversions etc.&nbsp; As you might expect there is a cut that Microsoft needs to take just to offer such support. For your first $25k Microsoft will charge you a 30% fee, but after your app makes $25k, that fee will drop to 20%. These are just a few of the items you will find in the [app developer agreement](http://msdn.microsoft.com/en-us/library/windows/apps/hh694058.aspx).
+Now when you're making most of the money, the Microsoft Store is doing all of this legwork for you, hosting the bits, transitions, currency conversions etc. As you might expect there is a cut that Microsoft needs to take just to offer such support. For your first $25k Microsoft will charge you a 30% fee, but after your app makes $25k, that fee will drop to 20%. These are just a few of the items you will find in the [app developer agreement](http://msdn.microsoft.com/en-us/library/windows/apps/hh694058.aspx).
 
 # Creating the package(s)
 
