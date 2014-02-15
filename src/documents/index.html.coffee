@@ -37,7 +37,7 @@ div class: "row articleList", ->
 		
 			ul class: "list-inline", ->
 				li ->	
-					a href: "/feed/index.xml", -> 
+					a href: "/feed/", -> 
 						img class: "img-responsive resizeMe", src: "/icons/rss.png"
 				li ->
 					a href: "http://twitter.com/csell5/", ->
