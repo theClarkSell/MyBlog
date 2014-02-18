@@ -45,9 +45,14 @@ div class: "row articleList", ->
 				li ->
 					a href: "http://plus.google.com/+ClarkSell/", ->
 						img class: "img-responsive resizeMe", src: "/icons/goog.png"
+				###
 				li ->
 					a href: "http://flickr.com/csell5/", ->
 						img class: "img-responsive resizeMe", src: "/icons/flick.png"
+				###
+				li ->
+					a href: "http://github.com/csell5/", ->
+						img class: "img-responsive resizeMe", src: "/icons/github.png"
 
 
 		## That Conference
