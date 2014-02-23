@@ -1,6 +1,6 @@
 ---
 layout: 'default'
-title: 'Clark Sell'
+title: 'the blog'
 subTitle: 'deep thoughts with a few spelling erros.'
 heroImageUrl: "/images/headshot-bw-crop.jpg"
 ---
@@ -38,21 +38,21 @@ div class: "row articleList", ->
 			ul class: "list-inline", ->
 				li ->	
 					a href: "/feed/", -> 
-						img class: "img-responsive resizeMe", src: "/icons/rss.png"
+						img class: "img-responsive resizeMe", src: "/icons/feed-icon.png"
 				li ->
 					a href: "http://twitter.com/csell5/", ->
-						img class: "img-responsive resizeMe", src: "/icons/t.png"
+						img class: "img-responsive resizeMe", src: "/icons/t-icon.png"
 				li ->
 					a href: "http://plus.google.com/+ClarkSell/", ->
-						img class: "img-responsive resizeMe", src: "/icons/goog.png"
+						img class: "img-responsive resizeMe", src: "/icons/goog-icon.png"
 				###
 				li ->
 					a href: "http://flickr.com/csell5/", ->
-						img class: "img-responsive resizeMe", src: "/icons/flick.png"
+						img class: "img-responsive resizeMe", src: "/icons/flick-icon.png"
 				###
 				li ->
 					a href: "http://github.com/csell5/", ->
-						img class: "img-responsive resizeMe", src: "/icons/github.png"
+						img class: "img-responsive resizeMe", src: "/icons/github-icon.png"
 
 
 		## That Conference

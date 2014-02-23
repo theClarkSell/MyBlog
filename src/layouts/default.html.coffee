@@ -27,11 +27,14 @@ html ->
   body ->
     div id: "bodyWrapper", -> 
 
-      header id: "pageHeader", class: "img-responsive", data: {'stellar-background-ratio': '1.25'}, style: "background-image: url(" + ( @document.heroImageUrl or '/images/unsplash_woods_crop.jpg' )+ ");", ->
+      header id: "pageHeader", data: {'stellar-background-ratio': '1.25'}, style: "background-image: url(" + ( @document.heroImageUrl or '/images/unsplash_woods_crop.jpg' )+ ");", ->
 
         div class: "nav", ->
           div class: "navbar navbar-default navbar-static-top navbar-left", ->
-            a class: "navbar-brand", href: "/", "Clark"
+            a class: "navbar-brand", href: "/", ->
+              div ->
+                span 'Clark'
+                span style: "font-weight: 100;", "Sell"
 
             button
               type: "button"
