@@ -10,7 +10,7 @@ body
 	width 100%
 	line-height 32.5px
 	font-size 18px
-	font-weight 200
+	font-weight 100
 
 #bodyWrapper
 	min-height 100%
@@ -89,7 +89,7 @@ body
 		a:hover
 			border-bottom 0
 		
-	.post a, .post a:visited, .post a:focus 
+	.post a, .post a:visited, .post a:focus, .page a, .page a:visited, .page a:focus 
 		font-weight 200
 		border-bottom 2px solid #e1e1e1
 		&:hover
@@ -99,11 +99,6 @@ body
 		border-bottom 0px
 		&:hover
 			border-bottom 0px
-
-figcaption
-	font-weight 200
-	font-size medium
-	font-style italic
 
 
 // ------
@@ -119,11 +114,14 @@ aside
 	article 
 		margin-bottom 50px
 
+.imgSpace
+	margin-top 10px
+	margin-bottom 10px
 
 // ------
 // post formatting
 
-#post
+#post, #page
 	h1
 		margin-top 50px
 

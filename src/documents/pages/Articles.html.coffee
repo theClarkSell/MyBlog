@@ -1,6 +1,6 @@
 ---
 title: Articles
-layout: page
+layout: list
 pageOrder: 3
 heroImageUrl: "/images/unsplash_desk_crop.jpg"
 ---

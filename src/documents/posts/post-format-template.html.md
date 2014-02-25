@@ -76,45 +76,19 @@ What if you want to put an anchor tag on your image?
 
 [![That Conference](/images/tclogo.png)](http://thatconf.com)
 
-## Image **Left**
+## Image
 Bacon ipsum dolor sit amet pork belly t-bone short loin, venison pork loin beef ribs ground round fatback ham hock capicola pig shoulder landjaeger doner. Cow beef ribs chicken turducken brisket short loin. Capicola salami tenderloin, pork chop tongue turkey hamburger ball tip. Cow ribeye swine strip steak, turducken prosciutto bacon biltong brisket frankfurter. Jowl pastrami tenderloin beef ribs bacon short loin, ribeye ground round sausage ball tip turducken jerky kevin meatball. Short loin porchetta pig pancetta.
 
-<figure id="foo" class="text-left">
-  	<a href="http://ThatConf.com"> 
-  		<img src="/images/tcLogo.png" alt="That Conference"/>
-	</a>
-	<figcaption>That Conference Awesome</figcaption>
-</figure>
+[![That Conference](/images/tclogo.png)](http://thatconf.com)
 
-## Image **Center**
-Bacon ipsum dolor sit amet pork belly t-bone short loin, venison pork loin beef ribs ground round fatback ham hock capicola pig shoulder landjaeger doner. Cow beef ribs chicken turducken brisket short loin. Capicola salami tenderloin, pork chop tongue turkey hamburger ball tip. Cow ribeye swine strip steak, turducken prosciutto bacon biltong brisket frankfurter. Jowl pastrami tenderloin beef ribs bacon short loin, ribeye ground round sausage ball tip turducken jerky kevin meatball. Short loin porchetta pig pancetta.
-
-<figure class="text-center">
-  	<a href="http://ThatConf.com"> 
-  		<img src="/images/tcLogo.png" alt="That Conference"/>
-	</a>
-	<figcaption>That Conference Awesome</figcaption>
-</figure>
-
-## Image **Right**
-Bacon ipsum dolor sit amet pork belly t-bone short loin, venison pork loin beef ribs ground round fatback ham hock capicola pig shoulder landjaeger doner. Cow beef ribs chicken turducken brisket short loin. Capicola salami tenderloin, pork chop tongue turkey hamburger ball tip. Cow ribeye swine strip steak, turducken prosciutto bacon biltong brisket frankfurter. Jowl pastrami tenderloin beef ribs bacon short loin, ribeye ground round sausage ball tip turducken jerky kevin meatball. Short loin porchetta pig pancetta.
-
-<figure class="text-right">
-  	<a href="http://ThatConf.com"> 
-  		<img src="/images/tcLogo.png" alt="That Conference"/>
-	</a>
-	<figcaption>That Conference Awesome</figcaption>
-</figure>
+	[![That Conference](/images/tclogo.png)](http://thatconf.com)
 
 # Code
 tab over.
 
-	<figure class="text-right">
-	  	<a href="http://ThatConf.com"> 
-	  		<img src="/images/tcLogo.png" alt="That Conference"/>
-		</a>
-		<figcaption>That Conference Awesome</figcaption>
-	</figure>
+	<a href="http://ThatConf.com"> 
+		<img src="/images/tcLogo.png" alt="That Conference"/>
+	</a>
 
 # Paragraphs of Text
 
