@@ -18,8 +18,7 @@ As a kid I made my money building cars, getting grease under my nails. That art 
 
 But, I'm an entrepreneur at heart and I love community. I founded and and president of the most awesome family friendly polyglot software developers conference, That Conference http://ThatConference.com. Our goal is simple help build the most awesome community while exposing our kids to our craft.
 
-If you've made it this far and still want more just head over to my [complete bio](http://clarksell.info).
+If you've made it this far and still want more just head over to my [complete bio](http://clarksell.info). Now you might just be looking for my speaker's profile, and beautiful head shots, [just head over here](/pages/SpeakerProfile).
 
 Lastly, please don't call me Chris.
 
-Now you might just be looking for my speaker's profile, and beautiful head shots, [just head over here](/pages/SpeakerProfile).
