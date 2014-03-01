@@ -32,7 +32,7 @@ div class: "articleList", ->
 						em document.date.toDateString()
 						
 
-		aside class: "col-md-4 col-md-offset-1 text-center", ->
+		aside class: "col-md-3 col-md-offset-2 text-center", ->
 			## Social Info
 			article ->	
 			
