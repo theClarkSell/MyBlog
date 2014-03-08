@@ -1,22 +1,22 @@
 ---
-layout: post 
+layout: post
 title: "On Time - Release 1"
-subTitle: 
-heroImageUrl: 
-date: 2012-11-08
+subTitle:
+heroImageUrl:
+date: 2012-11-8
 tags: ["On Time","Windows 8 Apps"]
-keywords: 
+keywords:
 ---
 
 [![414x180](414x180_thumb.png "414x180")](http://csell.net/wp-content/uploads/2012/11/414x180.png)
 
-Today I am proud to release something called [On Time](http://apps.microsoft.com/webpdp/app/on-time/9e5bde3d-3c58-4e77-8b69-5f97f500203d). This is an app that I dreamed up about a month ago and today it's in the Windows Store. 
+Today I am proud to release something called [On Time](http://apps.microsoft.com/webpdp/app/on-time/9e5bde3d-3c58-4e77-8b69-5f97f500203d). This is an app that I dreamed up about a month ago and today it's in the Windows Store.
 
 Short story: [On Time](http://apps.microsoft.com/webpdp/app/on-time/9e5bde3d-3c58-4e77-8b69-5f97f500203d) is monitor for speakers, presenters or just very time conscious people who want to closely monitor their current spot against an agenda.
 
 I hope you will try it out, provided feedback and learn something along the way. This is just the start of a bigger journey.
 
-## What is On Time? 
+## What is On Time?
 
 [On Time](http://apps.microsoft.com/webpdp/app/on-time/9e5bde3d-3c58-4e77-8b69-5f97f500203d) is a simple Windows 8 application striving to keep speakers "on time". If you're a speaker this is for you. Grab a Windows 8 machine, load in your presentation's agenda and set it down in front of where you plan on speaking. On Time will display your overall time left, where you should be in your agenda and how much time is left until your next topic. Don't worry, On Time has a few visual cues to make sure you're paying attention along the way.
 
@@ -35,11 +35,11 @@ Regardless of whatever title I might carry today, I am a web developer. Open sou
 Open source tools used thus far:[![screenshot_10302012_174547](screenshot_10302012_174547_thumb.png "screenshot_10302012_174547")](http://csell.net/wp-content/uploads/2012/11/screenshot_10302012_174547.png)
 
 *   [Knockout.js](http://knockoutjs.com/)
-*   [Font Awesome](http://fortawesome.github.com/Font-Awesome/) 
+*   [Font Awesome](http://fortawesome.github.com/Font-Awesome/)
 
 ## What's next:
 
-*   Website for On Time  <li>Add a User Voice Site for feedback and suggestions <li>Launch the app when clicking on an OT file.  <li>Update interaction between agenda and main screen  <li>Pause  <li>Switch color schemes  <li>Clean up code - blog series coming there. 
+*   Website for On Time  <li>Add a User Voice Site for feedback and suggestions <li>Launch the app when clicking on an OT file.  <li>Update interaction between agenda and main screen  <li>Pause  <li>Switch color schemes  <li>Clean up code - blog series coming there.
 
 ## Special Thanks:
 

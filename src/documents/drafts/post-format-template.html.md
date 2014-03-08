@@ -3,6 +3,7 @@
 title: "The post that formats all of the other awesome post"
 subTitle: "Can't you see this is the mother of all posts to help you figure out just how to format your awesome."
 layout: post
+date: "2014-3-15"
 tags: ['outro','post']
 keywords: ['ASDF', 'QWEWRTY']
 heroImageUrl: "/images/unsplash_woods_crop.jpg"
@@ -47,7 +48,7 @@ Written as:
 > when I get quoted I want to make sure it is at least awesome.
 >> but an even better quote on a quote
 
-Bacon ipsum dolor sit amet pork belly t-bone short loin, venison pork loin beef ribs ground round fatback ham hock capicola pig shoulder landjaeger doner. Cow beef ribs chicken turducken brisket short loin. 
+Bacon ipsum dolor sit amet pork belly t-bone short loin, venison pork loin beef ribs ground round fatback ham hock capicola pig shoulder landjaeger doner. Cow beef ribs chicken turducken brisket short loin.
 
 > when I get quoted I want to make sure it is at least awesome.
 >> but an even better quote on a quote
@@ -59,7 +60,7 @@ If you want to add an anchor tag to a resource [Clark Sell](http://csell.net). T
 
 	[text to link](ref)
 	[Clark Sell](http://csell.net)
-	
+
 	[ref]: link
 	[Clark Sell]: http://csell.net
 
@@ -86,7 +87,7 @@ Bacon ipsum dolor sit amet pork belly t-bone short loin, venison pork loin beef 
 # Code
 tab over.
 
-	<a href="http://ThatConf.com"> 
+	<a href="http://ThatConf.com">
 		<img src="/images/tcLogo.png" alt="That Conference"/>
 	</a>
 

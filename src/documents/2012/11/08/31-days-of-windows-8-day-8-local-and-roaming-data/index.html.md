@@ -1,16 +1,16 @@
 ---
-layout: post 
+layout: post
 title: "31 Days of Windows 8 | Day #8: Local and Roaming Data"
-subTitle: 
-heroImageUrl: 
-date: 2012-11-08
+subTitle:
+heroImageUrl:
+date: 2012-11-8
 tags: ["31 Days","localSettings","Roaming","roamingSettings","sotorage","temporaryFolder","Windows 8"]
-keywords: 
+keywords:
 ---
 
 This article is Day #8 in a series called [31 Days of Windows 8](http://31daysofwindows8.com/).&nbsp; Each of the articles in this series will be published for both [HTML5/JS](http://csell.net/category/windows-8/31-days/) and [XAML/C#](http://www.jeffblankenburg.com/category/31-days-of-windows-8/). You can find additional resources, downloads, and source code on our [website](http://www.31daysofwindows8.com/).
 
-[![advertisementsample](advertisementsample1.png "advertisementsample")](http://www.31daysofwindows8.com/?day=8) 
+[![advertisementsample](advertisementsample1.png "advertisementsample")](http://www.31daysofwindows8.com/?day=8)
 
 * * *
 
@@ -20,11 +20,11 @@ In several of the articles in this series, we've mentioned that storing data is 
 
 #### DO
 
-*   **Use roaming for preferences and customization**.&nbsp; Any choice that a user is likely to make on each machine that they use should be roamed.&nbsp; These are basic settings, like color preferences, favorite actors, or whether or not to publish data to Twitter.  <li>**Use roaming to let users continue a task.**&nbsp; Having my browser favorites follow me around, or even my high scores is awesome.&nbsp; Allowing me to continue writing that email (or blog post) I never finished? Even better. 
+*   **Use roaming for preferences and customization**.&nbsp; Any choice that a user is likely to make on each machine that they use should be roamed.&nbsp; These are basic settings, like color preferences, favorite actors, or whether or not to publish data to Twitter.  <li>**Use roaming to let users continue a task.**&nbsp; Having my browser favorites follow me around, or even my high scores is awesome.&nbsp; Allowing me to continue writing that email (or blog post) I never finished? Even better.
 
 #### DON'T
 
-*   **Use roaming for information that is clearly local-only.**&nbsp; This includes things like file paths and other data that only makes sense to the local device.  <li>**Don't roam large datasets.**&nbsp; There is a quota, [which you can determine in code](http://msdn.microsoft.com/en-us/library/windows/apps/windows.storage.applicationdata.roamingstoragequota.aspx), that limits the size of your roaming dataset.&nbsp; It is best to only roam preferences and small data files, as we will show in this article.  <li>**Don't use roaming for instant synchronization or rapidly changing data.**&nbsp; Windows controls when and how often your app data will be roamed, so don't count on instant synchronization.&nbsp; Build a web service of your own if you need this kind of reliability.&nbsp; Also, don't update the roaming data constantly.&nbsp; For example, you don't need to roam the user's current location at all times, instead update it every minute or so.&nbsp; You'll still provide a rich experience without destroying your quota. 
+*   **Use roaming for information that is clearly local-only.**&nbsp; This includes things like file paths and other data that only makes sense to the local device.  <li>**Don't roam large datasets.**&nbsp; There is a quota, [which you can determine in code](http://msdn.microsoft.com/en-us/library/windows/apps/windows.storage.applicationdata.roamingstoragequota.aspx), that limits the size of your roaming dataset.&nbsp; It is best to only roam preferences and small data files, as we will show in this article.  <li>**Don't use roaming for instant synchronization or rapidly changing data.**&nbsp; Windows controls when and how often your app data will be roamed, so don't count on instant synchronization.&nbsp; Build a web service of your own if you need this kind of reliability.&nbsp; Also, don't update the roaming data constantly.&nbsp; For example, you don't need to roam the user's current location at all times, instead update it every minute or so.&nbsp; You'll still provide a rich experience without destroying your quota.
 
 One last thing to remember: the way data is roamed across devices is managed by the user's Microsoft account.&nbsp; If they log into two machines with the same account credentials, AND they install the same app in both places, THEN the roaming settings and files will travel.&nbsp; Until then, nothing happens.
 
@@ -34,7 +34,7 @@ Now that I've scared you into never using this, let's take a look at how it's do
 
 When you hear the word "settings" in Windows 8 (or even Windows Phone) development, "small, simple data" is what should come to mind.&nbsp; We're really talking about storing name/value pairs.
 
-Good examples of these are user preferences.&nbsp; Perhaps you stored the user's first name (a string value) so that you could address them as such in your game.&nbsp; Maybe they decided to turn off notifications (a boolean value) from your app.&nbsp; Settings are also one of the easiest ways to store data, and I've found myself on more than one occasion storing a great number of settings values in my applications. Because these are invisible values that live in an invisible data store, it might be good to wrap the usage of these with a nice CRUD pattern.&nbsp; 
+Good examples of these are user preferences.&nbsp; Perhaps you stored the user's first name (a string value) so that you could address them as such in your game.&nbsp; Maybe they decided to turn off notifications (a boolean value) from your app.&nbsp; Settings are also one of the easiest ways to store data, and I've found myself on more than one occasion storing a great number of settings values in my applications. Because these are invisible values that live in an invisible data store, it might be good to wrap the usage of these with a nice CRUD pattern.&nbsp;
 
 To save this data locally we just leveraging the [Windows.Storage.ApplicationData](http://msdn.microsoft.com/en-us/library/windows/apps/windows.storage.applicationdata.aspx) object. To easily explore all of this let's just create the worst UI with a couple of input boxes and labels. We will just throw data into the input box and expect it to populate the label. As the app cycles we will save those values off to local storage. **I am begging you not to copy this UI**
 <pre class="prettyprint"><div>
@@ -119,7 +119,7 @@ TO
 
 var _localSettings = _applicationData.**_roamingSettings_**;</pre>
 
-Yea that's it. What ever you do, please **DO NOT tell your boss**. That feature right there just put at least 120 hours back on your project. The way I see it, you now owe me a beer. 
+Yea that's it. What ever you do, please **DO NOT tell your boss**. That feature right there just put at least 120 hours back on your project. The way I see it, you now owe me a beer.
 
 Given what we have already put together, everything will work as expected. Deploy the app to two different machines, fire up one and make set the input boxes. Then when you fire up the other, those text boxes will receive those new values too. If the data that you're saving is under 8k, then that save <strike>will</strike> should happen right away, anything over will take longer.
 
@@ -170,7 +170,7 @@ As you're building your apps, it's important to remember that all of this data, 
 .csharpcode .asp { background-color: #ffff00; }
 .csharpcode .html { color: #800000; }
 .csharpcode .attr { color: #ff0000; }
-.csharpcode .alt 
+.csharpcode .alt
 {
 	background-color: #f4f4f4;
 	width: 100%;
@@ -200,12 +200,12 @@ Once we have our temp folder we can work with it much like anyone would expect. 
             });
 }</pre>
 
-In addition, you can look at your files as they are saved.&nbsp; Each application stores its files locally on the machine, and if you use a breakpoint, you can determine that location on your device.&nbsp; For instance, the file we created above was at path: 
+In addition, you can look at your files as they are saved.&nbsp; Each application stores its files locally on the machine, and if you use a breakpoint, you can determine that location on your device.&nbsp; For instance, the file we created above was at path:
 <pre class="prettyprint">C:\Users\Clark\AppData\Local\Packages\53657140-d0da-4374-9606-b653e55dfd93_rhg4v0b7gygzg\TempState</pre>
 
 Once you've created it, you can actually crack the folder open and see the contents, even open the files yourself. Otherwise, that's about it!&nbsp; Saving files, even large files, can be done this way.&nbsp; You only need to remember the file name that you gave them.&nbsp; The Windows 8 sandbox takes care of the rest.&nbsp; Please note that my example above actually only stores a local file, but that you use the EXACT same code (with a reference to ApplicationData.Current.RoamingFolder instead) for Roaming files.
 
-As a reminder, roaming files will not transfer immediately, so don't expect the type of performance you've seen with Skydrive or DropBox's applications.&nbsp; Be mindful of the data quota, but otherwise, use this stuff extensively.&nbsp; 
+As a reminder, roaming files will not transfer immediately, so don't expect the type of performance you've seen with Skydrive or DropBox's applications.&nbsp; Be mindful of the data quota, but otherwise, use this stuff extensively.&nbsp;
 
 ## Summary
 

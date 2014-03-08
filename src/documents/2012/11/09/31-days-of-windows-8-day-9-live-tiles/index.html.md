@@ -1,16 +1,16 @@
 ---
-layout: post 
+layout: post
 title: "31 Days of Windows 8 | Day #9: Live Tiles"
-subTitle: 
-heroImageUrl: 
-date: 2012-11-09
+subTitle:
+heroImageUrl:
+date: 2012-11-9
 tags: ["31 Days","Notifications","Secondary Tile","Tiles","Windows 8"]
-keywords: 
+keywords:
 ---
 
 This article is Day #9 in a series called [31 Days of Windows 8](http://31daysofwindows8.com/).&nbsp; Each of the articles in this series will be published for both [HTML5/JS](http://csell.net/category/windows-8/31-days/) and [XAML/C#](http://www.jeffblankenburg.com/category/31-days-of-windows-8/). You can find additional resources, downloads, and source code on our [website](http://www.31daysofwindows8.com/).
 
-[![advertisementsample](advertisementsample2.png "advertisementsample")](http://31daysofmango.com/?day=9) 
+[![advertisementsample](advertisementsample2.png "advertisementsample")](http://31daysofmango.com/?day=9)
 
 * * *
 
@@ -20,9 +20,9 @@ Your tile represents your relationship with your user.&nbsp; They caringly pin i
 
 The family and I have gotten into a game called Jetpack Joyride, their tile is an excellent example.&nbsp; Here's four of the five states it rotates through, reminding me of my high score, as well as the achievements I haven't yet completed.&nbsp; These updates have dragged me back in more than once.
 
-![9-XAML-JetpackTile1](9-XAML-JetpackTile1.png "9-XAML-JetpackTile1") ![9-XAML-JetpackTile2](9-XAML-JetpackTile2.png "9-XAML-JetpackTile2") 
+![9-XAML-JetpackTile1](9-XAML-JetpackTile1.png "9-XAML-JetpackTile1") ![9-XAML-JetpackTile2](9-XAML-JetpackTile2.png "9-XAML-JetpackTile2")
 
-![9-XAML-JetpackTile3](9-XAML-JetpackTile3.png "9-XAML-JetpackTile3") ![9-XAML-JetpackTile4](9-XAML-JetpackTile4.png "9-XAML-JetpackTile4") 
+![9-XAML-JetpackTile3](9-XAML-JetpackTile3.png "9-XAML-JetpackTile3") ![9-XAML-JetpackTile4](9-XAML-JetpackTile4.png "9-XAML-JetpackTile4")
 
 The weather app, on the other hand, doesn't flip at all.&nbsp; But I also don't need anything more that what one static tile can provide when it comes to weather.&nbsp; I get today's high and low, as well as the current temperature.&nbsp; The five day forecast is always one click away.
 
@@ -38,11 +38,11 @@ I've got thousands and thousands of old photos stored in my photo libraries (yes
 
 When we work on our apps, I've discovered there are a few rules we need to be aware of:
 
-*   First, read, and then re-read the [Guidelines for Live Tiles](http://msdn.microsoft.com/en-us/library/windows/apps/hh465403.aspx).&nbsp; They're extensive, but interesting.  <li>You must ALWAYS have a small tile.&nbsp; Wide tiles are a nice-to-have, but you MUST accommodate a small tile.  <li>If you want wide tile notification you MUST provide a default wide tile. 
+*   First, read, and then re-read the [Guidelines for Live Tiles](http://msdn.microsoft.com/en-us/library/windows/apps/hh465403.aspx).&nbsp; They're extensive, but interesting.  <li>You must ALWAYS have a small tile.&nbsp; Wide tiles are a nice-to-have, but you MUST accommodate a small tile.  <li>If you want wide tile notification you MUST provide a default wide tile.
 
 Small tiles are not always as interesting as their big brothers, but they can still be conveyed to show interesting information.&nbsp; Here's a few small tiles which range from showing nothing but branding to showing updates on your local weather:
 
-[![image](image_thumb15.png "image")](http://csell.net/wp-content/uploads/2012/11/image15.png)&nbsp;[![image](image_thumb16.png "image")](http://csell.net/wp-content/uploads/2012/11/image16.png)[![image](image_thumb17.png "image")](http://csell.net/wp-content/uploads/2012/11/image17.png)[![image](image_thumb18.png "image")](http://csell.net/wp-content/uploads/2012/11/image18.png)&nbsp; 
+[![image](image_thumb15.png "image")](http://csell.net/wp-content/uploads/2012/11/image15.png)&nbsp;[![image](image_thumb16.png "image")](http://csell.net/wp-content/uploads/2012/11/image16.png)[![image](image_thumb17.png "image")](http://csell.net/wp-content/uploads/2012/11/image17.png)[![image](image_thumb18.png "image")](http://csell.net/wp-content/uploads/2012/11/image18.png)&nbsp;
 
 Things like SkyDrive don't update but one could argue what is there to update? However the Weather and Photos apps give me all the same data I get on the large tiles, just in a smaller package.
 
@@ -56,11 +56,11 @@ So how do we make our tile dance?&nbsp; Let's dance.
 
 By default, you've got an icon in your app that looks like this:
 
-![9-XAML-DefaultLogo](9-XAML-DefaultLogo.png "9-XAML-DefaultLogo") 
+![9-XAML-DefaultLogo](9-XAML-DefaultLogo.png "9-XAML-DefaultLogo")
 
 (I added a slight gray background to this one so you can see it on a white background, yours is likely transparent.)&nbsp; If you only want a static tile that uses your own 150 x 150 pixel image, you can do this one of two ways:
 
-*   Replace the image that currently resides at _images/logo.png_ in your project.  <li>Update your _package.appxmanifest_ file, and change the Logo value to a different image in your project, like this: 
+*   Replace the image that currently resides at _images/logo.png_ in your project.  <li>Update your _package.appxmanifest_ file, and change the Logo value to a different image in your project, like this:
 
 [![image](image_thumb19.png "image")](http://csell.net/wp-content/uploads/2012/11/image19.png)
 
@@ -107,7 +107,7 @@ var template = notifications.TileTemplateType.**_tileSquareBlock_**;
 ....
 
 var tileTextAttributes = tileXml.getElementsByTagName("text");
-**_tileTextAttributes[0].innerText = "31"; 
+**_tileTextAttributes[0].innerText = "31";
 tileTextAttributes[1].innerText = _tileMessage.value; // taking from input box_**
 
 ....</pre>
@@ -116,7 +116,7 @@ tileTextAttributes[1].innerText = _tileMessage.value; // taking from input box_*
 
 As you can see this is a pretty simple process.&nbsp; One final note about these templates is that it's likely your SmallLogo.png file will be displayed on some of these tiles as well.&nbsp; It's a great way to extend your branding, but it's also something to be aware of as you're working on this.&nbsp; Using the TileSquareBlock template, here's how my tile actually ends up looking:
 
-![9-XAML-TileSquareBlockActual](9-XAML-TileSquareBlockActual.png "9-XAML-TileSquareBlockActual") 
+![9-XAML-TileSquareBlockActual](9-XAML-TileSquareBlockActual.png "9-XAML-TileSquareBlockActual")
 
 This is yet another reason, as we stated on [Day #1](http://31daysofwindows8.com/?day=1), for you to use custom images for your app as you explore Windows 8 development.&nbsp; Without that purple image, I would have had to guess which one was being used, or worse, not realize that it was available at all.&nbsp; You will see that there are many properties that can be edited for your tile in the _package.appxmanifest_ file of your project.&nbsp; Not only can we swap out the logo image, but also set background properties, the Small Logo file, and other text and color values.
 
@@ -142,7 +142,7 @@ The tile XML will end up looking like this:
 
         <binding template="TileSquareImage">
             <image id="1" src="clarkHeadShot.jpg" alt="Clark Sell"/>
-        </binding> 
+        </binding>
 
         <binding template="TileWideSmallImageAndText03">
               <image id="1" src="clarkHeadShot.jpg" alt="31 Days"/>
@@ -188,7 +188,7 @@ Should your notification last forever? Well I can't answer that, but I am thinki
 <pre class="prettyprint">var currentTime = new Date();
 tileNotification.expirationTime = new Date(currentTime.getTime() + 600 * 1000);</pre>
 
-I know you we're expecting something much harder. So, we've covered small and large tiles, even in combination, but what if you want to provide your user with multiple tiles? 
+I know you we're expecting something much harder. So, we've covered small and large tiles, even in combination, but what if you want to provide your user with multiple tiles?
 
 ## Secondary Tiles
 

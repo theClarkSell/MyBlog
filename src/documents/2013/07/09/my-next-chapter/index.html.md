@@ -2,7 +2,7 @@
 "layout": "post"
 "title": "My Next Chapter"
 "subTitle": "Microsoft part 3. Consultant, Evangelist, now Program Manager in Redmond working from Chicago."
-"date": "2013-07-09"
+"date": "2013-7-9"
 "heroImageUrl": "/images/unsplash_clock_crop.jpg"
 "tags": ['That Conference', 'Career']
 "keywords": ['a', 'b']
@@ -16,7 +16,7 @@ My time in DPE afforded me the ability to spend a deep amount of time in our com
 
 What does this mean for my community involvement? *Nothing* really, I love being actively involved in the community and [That Conference](http://thatconference.com) should be a good sign of that... I will continue to do what I do and hopefully have a bigger impact than I've been able to have in the past. I have been cooking up some crazy ideas that I hope to start on after this year's [That Conference](http://thatconference.com). Maybe [Mark](http://marknic.com) and I will even get [Developer Smackdown](http://developersmackdown.com) back up and running and finally finish that garage door project we've been working on for too long.
 
-So what is my new job? Well, ironically I am now working for DPE but on the corporate side of things. I'm part of a [unique team](http://www.zdnet.com/microsoft-builds-a-deep-tech-team-to-attract-next-gen-developers-7000015270/) who spends half of their time helping customers ship their top projects and the other half building product for Microsoft. My primary focus will continue to be Windows 8 and the web stack, I can't leave that right? Nope. I love to build software and I love to help customers, and this is a perfect blend of product development while still helping customers and I still get to live in Chicago. 
+So what is my new job? Well, ironically I am now working for DPE but on the corporate side of things. I'm part of a [unique team](http://www.zdnet.com/microsoft-builds-a-deep-tech-team-to-attract-next-gen-developers-7000015270/) who spends half of their time helping customers ship their top projects and the other half building product for Microsoft. My primary focus will continue to be Windows 8 and the web stack, I can't leave that right? Nope. I love to build software and I love to help customers, and this is a perfect blend of product development while still helping customers and I still get to live in Chicago.
 
 I would be lying if I didn't say I was just a little excited to be part of the engine and working with some really smart peeps. I am really hoping I will have the opportunities to take the past 8 years in the field and influence a little change, make a little awesome and drink a couple beers along the way. Here's to writing code and chasing your passion!
 

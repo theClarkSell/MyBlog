@@ -1,11 +1,11 @@
 ---
-layout: post 
+layout: post
 title: "31 Days of Windows 8 | Day #6: Search Contract"
-subTitle: 
-heroImageUrl: 
-date: 2012-11-06
+subTitle:
+heroImageUrl:
+date: 2012-11-6
 tags: ["31 Days","Contracts","Search","Windows 8"]
-keywords: 
+keywords:
 ---
 
 This article is Day #6 in a series called [31 Days of Windows 8](http://31daysofwindows8.com/).  Each of the articles in this series will be published for both [HTML5/JS](http://csell.net/category/windows-8/31-days/) and [XAML/C#](http://www.jeffblankenburg.com/category/31-days-of-windows-8/). You can find all of the resources, tools and source code on our [Website](http://31daysofwindows8.com/).

@@ -1,18 +1,18 @@
 ---
-layout: post 
+layout: post
 title: "31 Days of Windows 8 | Day #1: The Blank App"
 subTitle: "Hey we have to start somewhere right? Well, File - New - Project."
-heroImageUrl: 
-date: 2012-11-01
+heroImageUrl:
+date: 2012-11-1
 tags: ["31 Days","HMTL5","Images","Tempalate","VS2012","Windows 8"]
-keywords: 
+keywords:
 ---
 
 This article is Day #2 in a series called [31 Days of Windows 8](http://31daysofwindows8.com/).  Each of the articles in this series will be published for both [HTML5/JS](http://csell.net/category/windows-8/31-days/) and [XAML/C#](http://www.jeffblankenburg.com/category/31-days-of-windows-8/). You can find all of the resources, tools and source code on our [Website](http://31daysofwindows8.com/).
 
 
 <figure class="text-center">
-    <a href="http://31DaysOfWindows8.com/?day=1"> 
+    <a href="http://31DaysOfWindows8.com/?day=1">
         <img src="advertisementsample142.png" alt="That Conference"/>
     </a>
 </figure>
@@ -74,7 +74,7 @@ Make sure you are intimately familiar with this file.  You're going to need it.
 # default.html
 
 This is our main entry point or starting page of your application. _default.html_ could actually be named anything, as it's set in our package.appxmanifest file as the application's start page. As a web developer _default.html_ should look like any other starting page for a website you've created especially if you've done any HTML5.
-    
+
     <!DOCTYPE html>
     <html>
     <head>

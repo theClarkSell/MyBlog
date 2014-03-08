@@ -1,11 +1,11 @@
 ---
-layout: post 
+layout: post
 title: "31 Days of Windows 8 | Day #4: New Controls"
-subTitle: 
-heroImageUrl: 
-date: 2012-11-04
+subTitle:
+heroImageUrl:
+date: 2012-11-4
 tags: ["31 Days","Controls","Windows 8","WinJS","WinRT"]
-keywords: 
+keywords:
 ---
 
 This article is Day #4 in a series called [31 Days of Windows 8](http://31daysofwindows8.com/).  Each of the articles in this series will be published for both [HTML5/JS](http://csell.net/category/windows-8/31-days/) and [XAML/C#](http://www.jeffblankenburg.com/category/31-days-of-windows-8/). You can find all of the resources, tools and source code on our [Website](http://31daysofwindows8.com/).
@@ -112,7 +112,7 @@ Our end result is adding a rating control under some header that we centered in 
 [![image](image_thumb4.png "image")](http://csell.net/wp-content/uploads/2012/11/image4.png)
 
 Controls can can also have options. These options are just another _data-_ attribute, _data-win-options_ to be exact. Below I am going to change the default star count of the rating control from 5 to 7.
-<pre class="prettyprint"><div id="ratings" 
+<pre class="prettyprint"><div id="ratings"
     data-win-control="WinJS.UI.Rating"
     data-win-options="{maxRating: 7}">
 </div></pre>
@@ -163,12 +163,12 @@ When you start look into the App Bar control you will notice that you need icon'
 [![AppBarIconList](AppBarIconList.png "AppBarIconList")](http://31daysofwindows8.com/content/AppBarIconList.png)
 
 You can see below, that I have created a button which is defined in our app bar. The _icon_ property for the _data-win-options_ is set to the name of the icon you will find in the image above.
-<pre class="prettyprint"><button 
-	id="openAgenda" 
-	data-win-control="WinJS.UI.AppBarCommand"     
+<pre class="prettyprint"><button
+	id="openAgenda"
+	data-win-control="WinJS.UI.AppBarCommand"
 	data-win-options="{
-		label: 'Open', 
-		icon: 'openfile', 
+		label: 'Open',
+		icon: 'openfile',
 		tooltip: 'Open Existing Agenda.',
 		section:'selection'}">
 </button></pre>

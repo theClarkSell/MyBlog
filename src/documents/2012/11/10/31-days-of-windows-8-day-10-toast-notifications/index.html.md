@@ -1,11 +1,11 @@
 ---
-layout: post 
+layout: post
 title: "31 Days of Windows 8 | Day #10: Toast Notifications"
-subTitle: 
-heroImageUrl: 
+subTitle:
+heroImageUrl:
 date: 2012-11-10
 tags: ["31 Days","Live Tiles","Notifications","Tiles","Toast","Windows 8"]
-keywords: 
+keywords:
 ---
 
 [![XAMLCallout](XAMLCallout.png "XAMLCallout")](http://31daysofwindows8.com/?day=10)
@@ -52,7 +52,7 @@ Yesterday, [Day #9's article focused on Live Tiles](http://csell.net/2012/11/09/
     </visual>
 </toast></pre>
 
-As we did with Live Tiles, we do the same or very&nbsp; similar with toast.&nbsp; 
+As we did with Live Tiles, we do the same or very&nbsp; similar with toast.&nbsp;
 
 *   Get an instance of [WinRT](http://msdn.microsoft.com/en-us/library/windows/apps/br211377.aspx) Notification<li>From Notifications, get your Template<li>From that Template, get it's content aka that XML we showed above<li>Select and Update appropriately<li>(optional) set your duration
 <li>(optional) set audio
@@ -139,7 +139,7 @@ audio.setAttribute("silent", "true");</pre>
 .csharpcode .asp { background-color: #ffff00; }
 .csharpcode .html { color: #800000; }
 .csharpcode .attr { color: #ff0000; }
-.csharpcode .alt 
+.csharpcode .alt
 {
 	background-color: #f4f4f4;
 	width: 100%;

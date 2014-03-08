@@ -1,17 +1,17 @@
 ---
-layout: post 
+layout: post
 title: "31 Days of Windows 8 | Day #2: Orientation & Snap"
 subTitle: "Snap to it and start doing the rotation."
-heroImageUrl: 
-date: 2012-11-02
+heroImageUrl:
+date: 2012-11-2
 tags: ["31 Days","media queries","orientation","snapping","Windows 8"]
-keywords: 
+keywords:
 ---
 
 This article is Day #2 in a series called [31 Days of Windows 8](http://31daysofwindows8.com/).  Each of the articles in this series will be published for both [HTML5/JS](http://csell.net/category/windows-8/31-days/) and [XAML/C#](http://www.jeffblankenburg.com/category/31-days-of-windows-8/). You can find all of the resources, tools and source code on our [Website](http://31daysofwindows8.com/).
 
 <figure class="text-center">
-    <a href="http://31DaysOfWindows8.com/?day=2"> 
+    <a href="http://31DaysOfWindows8.com/?day=2">
         <img src="advertisementsample14.png" alt="That Conference"/>
     </a>
 </figure>
@@ -77,7 +77,7 @@ Depending on your use case, this may be something of value to your apps overall 
 # Display Orientation
 
 Programmatically we can ask Windows what our current orientation is and even be notified about when it changes. We can do this through an API called [Windows.Graphics.Display.DisplayProperties](http://msdn.microsoft.com/en-us/library/windows/apps/windows.graphics.display.displayproperties.aspx). Below I have have created a very simple function which switches _currentOrientation_ updating an element in the DOM.
-    
+
     function updateDisplayOrientation() {
 
         switch (Windows.Graphics.Display.DisplayProperties.currentOrientation) {

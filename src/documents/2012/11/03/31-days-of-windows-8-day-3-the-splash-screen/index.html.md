@@ -1,11 +1,11 @@
 ---
-layout: post 
+layout: post
 title: "31 Days of Windows 8 | Day #3: The Splash Screen"
-subTitle: 
-heroImageUrl: 
-date: 2012-11-03
+subTitle:
+heroImageUrl:
+date: 2012-11-3
 tags: ["31 Days","html5","Namespaces","Splash Screen","Windows 8","WinJS"]
-keywords: 
+keywords:
 ---
 
 This article is Day #3 in a series called [31 Days of Windows 8](http://31daysofwindows8.com/).  Each of the articles in this series will be published for both [HTML5/JS](http://csell.net/category/windows-8/31-days/) and [XAML/C#](http://www.jeffblankenburg.com/category/31-days-of-windows-8/). You can find all of the resources, tools and source code on our [Website](http://31daysofwindows8.com/).

@@ -43,7 +43,7 @@ docpadConfig = {
 			styles: [
 				#"http://fonts.googleapis.com/css?family=Source+Code+Pro:200,400"
 				"http://yandex.st/highlightjs/8.0/styles/default.min.css"
-				
+
 				"/styles/bootstrap.css"
 				"/styles/style.css"
 			]
@@ -53,11 +53,11 @@ docpadConfig = {
 				#"//code.jquery.com/jquery-2.1.0.min.js"
 				#"//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"
 				"http://yandex.st/highlightjs/8.0/highlight.min.js"
-								
+
 				"/scripts/modernizr.min.js"
 				"/scripts/jquery-2.1.0.min.js"
 				"/scripts/bootstrap.min.js"
-				
+
 				"/scripts/jquery.stellar.min.js"
 				"/scripts/script.js"
 			]
@@ -109,8 +109,7 @@ docpadConfig = {
 			database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
 
 		posts: (database) ->
-			database.findAllLive({layout: 'post'}, [date:-1])
-			#database.findAllLive({tags:$has:'post'}, [date:-1])
+			database.findAllLive({layout: 'post'}, [date: -1])
 
 	# =================================
 	# Plugins
@@ -149,6 +148,5 @@ docpadConfig = {
 				else
 					next()
 }
-
 # Export our DocPad Configuration
 module.exports = docpadConfig

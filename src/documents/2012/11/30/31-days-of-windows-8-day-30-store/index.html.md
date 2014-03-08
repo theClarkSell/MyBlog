@@ -1,16 +1,16 @@
 ---
-layout: post 
+layout: post
 title: "31 Days of Windows 8 | Day #30: Store"
-subTitle: 
-heroImageUrl: 
+subTitle:
+heroImageUrl:
 date: 2012-11-30
 tags: ["Store"]
-keywords: 
+keywords:
 ---
 
 This article is Day #30 in a series called [31 Days of Windows 8](http://31daysofwindows8.com/). Each of the articles in this series will be published for both [HTML5/JS](http://csell.net/category/windows-8/31-days/) and [XAML/C#](http://www.jeffblankenburg.com/category/31-days-of-windows-8/). You can find additional resources, downloads, and source code on our [website](http://www.31daysofwindows8.com/).
 
-[![advertisementsample](advertisementsample9.png "advertisementsample")](http://31daysofwindows8.com/?day=30) 
+[![advertisementsample](advertisementsample9.png "advertisementsample")](http://31daysofwindows8.com/?day=30)
 
 Wow, here we are finally talking about the Store. This is really our last step (and a very exciting one no less) in your development process. Today we're going to share with you some of our steps and experience in not only helping others get their apps into the store, but also submitting our own.
 
@@ -30,13 +30,13 @@ If for some reason you're new to this notion of a "store" or "marketplace" conce
 
 Of course the certification process is both automated and manual. For the Microsoft Store you as the developer have access to the same automated tools ([WACK](http://msdn.microsoft.com/en-US/windows/apps/jj572486)) which are used once you've submitted to the store. This allows you to go through the process before you've ever submitted addressing any potential issues.
 
-The [Windows App Certification Kit](http://msdn.microsoft.com/en-US/windows/apps/jj572486) or WACK is really two different kits; one kit for Intel based processors and another one for ARM based processors. These kits are tools that you would of course install on a test system which will run through the same automated process that the Microsoft Store would do from it's servers. The beauty about these kits you can run them on yourself before you ever submit your application to the marketplace. As I said this really helps to ensure you've cut down any issues long before submitting to the store, ultimately cutting down your certification time if you we're to have any issues. 
+The [Windows App Certification Kit](http://msdn.microsoft.com/en-US/windows/apps/jj572486) or WACK is really two different kits; one kit for Intel based processors and another one for ARM based processors. These kits are tools that you would of course install on a test system which will run through the same automated process that the Microsoft Store would do from it's servers. The beauty about these kits you can run them on yourself before you ever submit your application to the marketplace. As I said this really helps to ensure you've cut down any issues long before submitting to the store, ultimately cutting down your certification time if you we're to have any issues.
 
 After starting the Windows App Certification Kit you have 3 different categories of apps that you can select. For our apps we would select the validate Windows Store App option. Once selected, you'll be asked as to what application you want to validate.
 
 [![](SNAGHTML2a9a1b2d_thumb.png)](http://csell.net/wp-content/uploads/2012/11/SNAGHTML2a9a1b2d.png)
 
-Once you pick out your application, the WACK tool will start running. It will start to run a variety of tests against your application and even do things like open it, to see how long wait times are. After it's completed, you will get a detailed report as to what was validated. Of course just like in TDD, green is good and red is bad. Below is just a snip from a failed event report. 
+Once you pick out your application, the WACK tool will start running. It will start to run a variety of tests against your application and even do things like open it, to see how long wait times are. After it's completed, you will get a detailed report as to what was validated. Of course just like in TDD, green is good and red is bad. Below is just a snip from a failed event report.
 
 [![](image_thumb78.png)](http://csell.net/wp-content/uploads/2012/11/image79.png)
 
@@ -48,7 +48,7 @@ One of the biggest reason apps fail is [certification requirement 4.1](http://ms
 
 # TIP
 
-All of the Visual Studio templates for the Windows Store create the shell of an app but with the internet capability.enabled. If you're *not* using the internet - uncheck it and save yourself the hassle. 
+All of the Visual Studio templates for the Windows Store create the shell of an app but with the internet capability.enabled. If you're *not* using the internet - uncheck it and save yourself the hassle.
 
 # App Images
 
@@ -56,9 +56,9 @@ All of the Visual Studio templates for the Windows Store create the shell of an 
 
 Like it or not, the first thing your potential customer will see is an image of your application in the store. In fact, there are a number of different images your user might see depending on where the store app has placed your application.
 
-Now mind you, this is all before your potential customer has even installed it, so make sure you have some great store appeal is a good thing. 
+Now mind you, this is all before your potential customer has even installed it, so make sure you have some great store appeal is a good thing.
 
-During [day 1](http://csell.net/2012/11/01/31-days-of-windows-8-day-1-the-blank-app) when we talked about the blank application, we discussed a number of different images you needed to include in your application. These were things like the store logo, small tile, wide tile and so on. 
+During [day 1](http://csell.net/2012/11/01/31-days-of-windows-8-day-1-the-blank-app) when we talked about the blank application, we discussed a number of different images you needed to include in your application. These were things like the store logo, small tile, wide tile and so on.
 
 As it turns out, when you try and submit your application, you're not done with the image creation process. At the time of submission you will be asked for a number of _new_ logos that will be used by the store specifically. They are not part of your app's package, they are images uploaded directly to the store. Specifically these images are your billboard images as well as screenshots of your application.
 
@@ -112,7 +112,7 @@ You've pushed and now you need to fix up a bug. Well, thankfully you've already 
 
 # Summary
 
-Honestly submitting your app into the store is the easy part. All of the planning and development that's been done to this point has really been the hard part. While you have a plan in mind about how you may make money, don't be afraid to think outside of the box and try a few different things. You never know what will net you the best results. 
+Honestly submitting your app into the store is the easy part. All of the planning and development that's been done to this point has really been the hard part. While you have a plan in mind about how you may make money, don't be afraid to think outside of the box and try a few different things. You never know what will net you the best results.
 
 Tomorrow, we're going to talk about our last day in this series which is focused on design.
 
