@@ -1,14 +1,14 @@
 ---
-layout: post 
+layout: post
 title: "Introducing: That Conference"
-subTitle: 
-heroImageUrl: 
+subTitle:
+heroImageUrl:
 date: 2011-4-4
 tags: ["Community","Events","Events","That Conference"]
-keywords: 
+keywords:
 ---
 
-### [![wThatConference-300](440w.jpg?s=badge "wThatConference-300")](http://csell.net/content/binary/Windows-Live-Writer/IntroducingThat-Conference_7BFF/wThatConference-3003.png)
+### [![wThatConference-300](440w.jpg)](http://csell.net/content/binary/Windows-Live-Writer/IntroducingThat-Conference_7BFF/wThatConference-3003.png)
 
 Hang out with 1500 of your newest friends at a multi-track conference for software developers. We're calling it **<span style="text-decoration: underline;">that Conference</span>.**
 
@@ -17,8 +17,6 @@ I personally feel like the landscape of conferences are changing. Things like [C
 Before we started this adventure, we actually reached out to the [CodeMash](http://CodeMash.org) leadership team. I personally can't say enough awesome things about the guys who run [CodeMash](http://codemash.org). They have been a huge help to date an in partnership with them we have taken a lot of our inspiration from their successes.  We are clearly stealing their overall format, venue and whatnot but we're putting our own spin to it.
 
 Yes we are currently in the planning stage, but let me say this; this is real. This will happen. This will be awesome. This isn't just a few guys and gals shooting the breeze over beers. The venue is locked in, contracts are signed and the wheel is turning.
-
-&nbsp;
 
 ### Current Random Ideas
 
@@ -55,7 +53,7 @@ August 13th - 15th of **2012** at the [Kalahari Resort in the Wisconsin Dells, W
 
 Of course like any big conference, we couldn't pull it off without the help of our community and our sponsors. At this point I cannot announce anything but if you're interested in being part of that Conference, please email us at [contact@thatconference.com](mailto:contact@thatconference.com).
 
-### 
+###
 
 ### Where Are We Today
 
@@ -67,8 +65,6 @@ It's has taken a great deal of work to where we are today. As you have already s
 *   Mail Distribution
 *   Full Scale Website
 You can follow us on [Twitter](http://twitter.com/thatconference) or feel free to email us anytime at [contact@thatconference.com](mailto:contact@thatconference.com).
-
-&nbsp;
 
 ****
 
