@@ -5,7 +5,7 @@ html ->
     meta charset: "utf-8"
     meta "http-equiv": "content-type", "content": "text/html; charset=utf-8"
     meta "http-equiv": "X-UA-Compatible", "content": "IE=edge,chrome=1"
-    
+
     meta "name": "description", "content": @getPreparedDescription()
     meta "name": "keywords", "content": @getPreparedKeywords()
     meta "name": "author", "content": @site.author
@@ -25,7 +25,7 @@ html ->
     text @getBlock('styles').add(@site.styles).toHTML()
 
   body ->
-    div id: "bodyWrapper", -> 
+    div id: "bodyWrapper", ->
 
       header id: "pageHeader", data: {'stellar-background-ratio': '1.25'}, style: "background-image: url(" + ( @document.heroImageUrl or '/images/unsplash_woods_crop.jpg' )+ ");", ->
 
@@ -44,7 +44,7 @@ html ->
                 target: ".navbar-collapse"
               ->
                 span class: "icon-bar" for i in [1..3]
-          
+
           div class: "navbar navbar-default navbar-static-top navbar-right", ->
             div class: "collapse navbar-collapse", ->
               ul class: "nav navbar-nav", ->
@@ -74,15 +74,3 @@ html ->
 
 
     script type: "text/javascript", ->
-      '''
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-21705613-2']);
-        _gaq.push(['_setDomainName', 'csell.net']);
-        _gaq.push(['_trackPageview']);
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-      '''
-     
