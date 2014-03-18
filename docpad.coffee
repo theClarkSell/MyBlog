@@ -49,14 +49,14 @@ docpadConfig = {
 			]
 			# Scripts
 			scripts: [
-				#"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
-				#"//code.jquery.com/jquery-2.1.0.min.js"
-				#"//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"
+				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
+				"//code.jquery.com/jquery-2.1.0.min.js"
+				"//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"
 				"http://yandex.st/highlightjs/8.0/highlight.min.js"
 
-				"/scripts/modernizr.min.js"
-				"/scripts/jquery-2.1.0.min.js"
-				"/scripts/bootstrap.min.js"
+				#"/scripts/modernizr.min.js"
+				#"/scripts/jquery-2.1.0.min.js"
+				#"/scripts/bootstrap.min.js"
 
 				"/scripts/jquery.stellar.min.js"
 				"/scripts/script.js"
