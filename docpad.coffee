@@ -117,6 +117,7 @@ docpadConfig = {
 
 	environments:
 		development:
+			
 			ignoreCustomPatterns: /2005|2006|2007|2009|2010|2011|2012/
 
 			collections:
