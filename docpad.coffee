@@ -106,7 +106,7 @@ docpadConfig = {
 
 	collections:
 		pages: (database) ->
-			database.findAllLive({pageOrder: $exists: true, isDraft: $exists: false}, [pageOrder:1,title:1])
+			database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
 
 		posts: (database) ->
 			database.findAllLive({layout: 'post', isDraft: $exists: false}, [{date: -1}])
@@ -117,6 +117,8 @@ docpadConfig = {
 
 	environments:
 		development:
+			ignoreCustomPatterns: /2005|2006|2007|2009|2010|2011|2012/
+
 			collections:
 				pages: (database) ->
 					database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
@@ -124,12 +126,16 @@ docpadConfig = {
 				posts: (database) ->
 					database.findAllLive({layout: 'post'}, [{date: -1}])
 
+			plugins:
+				livereload:
+								enabled: true
+
 	# =================================
 	# Plugins
 
 	plugins:
 		livereload:
-            enabled: true
+            enabled:false
         cleanurls:
         	trailingSlashes: true
 
