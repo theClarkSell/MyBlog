@@ -97,7 +97,7 @@ echo Building DocPad site...
 pushd "%DEPLOYMENT_SOURCE%"
 rd /s /q out
 IF !ERRORLEVEL! NEQ 0 goto error
-"!NODE_EXE!" .\node_modules\docpad\bin\docpad -e static generate
+"!NODE_EXE!" .\node_modules\docpad\bin\docpad --env static generate
 IF !ERRORLEVEL! NEQ 0 goto error
 popd
 
