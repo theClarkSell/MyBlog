@@ -106,10 +106,23 @@ docpadConfig = {
 
 	collections:
 		pages: (database) ->
-			database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
+			database.findAllLive({pageOrder: $exists: true, isDraft: $exists: false}, [pageOrder:1,title:1])
 
 		posts: (database) ->
-			database.findAllLive({layout: 'post'}, [date: -1])
+			database.findAllLive({layout: 'post', isDraft: $exists: false}, [{date: -1}])
+
+
+	# =================================
+	# Environments
+
+	environments:
+		development:
+			collections:
+				pages: (database) ->
+					database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
+
+				posts: (database) ->
+					database.findAllLive({layout: 'post'}, [{date: -1}])
 
 	# =================================
 	# Plugins

@@ -6,6 +6,8 @@
 "heroImageUrl": "/images/unsplash_clock_crop.jpg"
 "tags": ['development', 'Career']
 "keywords": ['a', 'b']
+
+isDraft: true
 ---
 
 This is what they call a post from the future.

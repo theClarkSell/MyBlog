@@ -5,6 +5,8 @@ layout: page
 tags: ['That Conference' ]
 pageOrder: 2
 heroImageUrl: "/images/unsplash_defocus_crop.jpg"
+
+isDraft: true
 ```
 
 This is the **about** page
