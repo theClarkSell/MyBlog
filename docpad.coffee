@@ -63,7 +63,7 @@ docpadConfig = {
 			]
 
 		# Discus.com settings
-		disqusShortName: 'csell5'
+		disqusShortName: 'csell'
 
 		# -----------------------------
 		# Helper Functions
