@@ -71,6 +71,9 @@ html ->
         div id: "copyright", "Copyright 2014 #{@site.author} All Rights Reserved"
 
     text @getBlock('scripts').add(@site.scripts).toHTML()
+    text @getBlock('scripts').add(@site.defaultScript).toHTML()
 
 
-    script type: "text/javascript", ->
+
+
+

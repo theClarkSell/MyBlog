@@ -46,35 +46,3 @@ $ ->
 			hljs.highlightBlock(element)
 		catch e
 			# absorb any problems, usually with older browsers
-
-
-
-( ->
-	_gaq = _gaq or []
-	_gaq.push [
-		"_setAccount"
-		"UA-21705613-2"
-	]
-
-	_gaq.push [
-		"_setDomainName"
-		"csell.net"
-	]
-
-	_gaq.push ["_trackPageview"]
-	
-	(->
-		ga = document.createElement("script")
-		ga.type = "text/javascript"
-		ga.async = true
-		ga.src = ((if "https:" is document.location.protocol then "https://ssl" else "http://www")) + ".google-analytics.com/ga.js"
-		s = document.getElementsByTagName("script")[0]
-		s.parentNode.insertBefore ga, s
-		return
-	)()
-      
-	if navigator.userAgent.match(/IEMobile\/10\.0/)
-		msViewportStyle = document.createElement("style")
-		msViewportStyle.appendChild document.createTextNode("@@-ms-viewport{width:auto!important}")
-		document.querySelector("head").appendChild msViewportStyle
-)
