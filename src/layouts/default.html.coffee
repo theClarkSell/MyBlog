@@ -11,6 +11,7 @@ html ->
     meta "name": "author", "content": @site.author
     text @getBlock('meta').toHTML()
     meta "name": "viewport", "content": "width=device-width, initial-scale=1.0"
+    meta "name": "google-site-verification" "content": "7qBn2ADQE0AjoYPTvti8tvHvCjvmpn-G4A0Asm7jnMs"
 
     # Shortcut icons
     link rel: "shortcut icon",                href: "/ico/favicon.png"
