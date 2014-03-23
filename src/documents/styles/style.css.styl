@@ -1,5 +1,7 @@
 @import 'nib'
 
+_orange = #FF4E00
+
 @-webkit-viewport
 	width device-width
 
@@ -31,18 +33,27 @@ body
 	min-height 100%
 	position relative
 
-#pageHeader
-	padding-top 30px
-	height 25em
-	background url('/images/foo.jpg') no-repeat center
-	background-attachment fixed
-	color white
+#siteHeader
+	padding-top 30px	
+	background: url("/images/unsplash_woods_crop.jpg") no-repeat center;
+
+	-webkit-background-size cover
+    -moz-background-size cover
+    -o-background-size cover
+    background-size cover
+
+	background-position center center
+    vertical-align top
+    background-attachment fixed
+    
+	color #fff
 
 .resizeIcon
 	font-size 72px
 
 .jumbotron, .navbar
 	background none
+	color #fff
 
 .hero-unit
 	padding-top 25px
@@ -72,8 +83,6 @@ body
 	
 .post .date
 	margin-bottom 25px
-
-
 
 .articleList
 	margin-bottom 25px
@@ -140,6 +149,15 @@ body
 
 	p, h1
 		margin-bottom 25px
+
+blockquote
+	p
+		margin-top 15px
+		margin-bottom 15px
+
+	margin-left 25px
+	border-left 5px solid _orange
+		
 
 #disqus
 	margin-top 50px
