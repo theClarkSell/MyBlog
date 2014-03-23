@@ -127,7 +127,7 @@ docpadConfig = {
 
 			plugins:
 				livereload:
-								enabled: true
+					enabled: true
 
 	# =================================
 	# Plugins
@@ -135,8 +135,15 @@ docpadConfig = {
 	plugins:
 		livereload:
             enabled:false
+
         cleanurls:
         	trailingSlashes: true
+
+	 	sitemap:
+            cachetime: 600000
+            changefreq: 'weekly'
+            priority: 0.5
+            filePath: 'sitemap.xml'
 
 	# =================================
 	# DocPad Events

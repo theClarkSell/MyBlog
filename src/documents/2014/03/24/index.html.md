@@ -2,9 +2,9 @@
 ---
 "layout": "post"
 "title": "I have a new blog and no it's not Ghost"
-"subTitle": "Why I decided to go file, new project and start over with blogging."
+"subTitle": "Why I decided to go file, new project and start all over with blogging."
 "date": "2014-3-24"
-"heroImageUrl": "/images/XXX"
+"heroImageUrl": "/XXX"
 "tags": ['Blog', 'Docpad']
 "keywords": []
 
