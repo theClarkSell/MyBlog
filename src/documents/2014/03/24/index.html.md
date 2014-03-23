@@ -3,10 +3,12 @@
 "layout": "post"
 "title": "I have a new blog and no it's not Ghost"
 "subTitle": "Why I decided to go file, new project and start over with blogging."
-"date": "2014-3-20"
+"date": "2014-3-24"
 "heroImageUrl": "/images/XXX"
 "tags": ['Blog', 'Docpad']
 "keywords": []
+
+isDraft: true
 ---
 
 I just dropped one big atomic bomb on what I have called my blog. Why you ask? What did I do? How did you do it? 
