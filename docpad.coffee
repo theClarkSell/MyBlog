@@ -57,8 +57,7 @@ docpadConfig = {
 				#"/scripts/modernizr.min.js"
 				#"/scripts/jquery-2.1.0.min.js"
 				#"/scripts/bootstrap.min.js"
-
-				"/scripts/jquery.stellar.min.js"
+				#"/scripts/jquery.stellar.min.js"
 				"/scripts/script.js"
 			]
 

@@ -3,6 +3,7 @@ title: Articles
 layout: list
 pageOrder: 4
 heroImageUrl: "/images/unsplash_desk_crop.jpg"
+
 ---
 
 div id: "articleSearch", class: "col-md-4 col-md-offset-8", ->
@@ -29,24 +30,31 @@ for document in @getCollection('posts').toJSON()
 		div class: "row", ->
 			p class: "col-md-10 col-md-offset-2", document.subTitle
 
-		###
-		div class: "row", ->
-			div class: "col-md-10 col-md-offset-2 text-muted", "Posted InTAGS"
-
-
-
-		if document.tags
-			div class: "row", ->
-				p class: "col-md-10 col-md-offset-2", ->
-					"posted in: "
-					a href: @getTagUrl(tag)
-		###
-
-
-
 ###
-<% if document.tags?: %>
-<div class="abstract-tags">
-    Posted In: <%- ("<a href='#{@getTagUrl(tag)}'>#{tag}</a>" for tag in document.tags).join(', ') %>
-</div>
+div class: "pagination", ->
+	ul ->
+    	unless @hasPrevPage()
+        	li class: "disabled", ->
+            	span "prev" 
+        else
+			li -> 
+        		a href: @getPrevPage(), ->
+        			"prev"
+
+		for pageNumber in [0..@document.page.count-1]
+			if @document.page.number is pageNumber
+				li class: "active", ->
+					span pageNumber + 1
+			else
+				li ->
+					a href: @getPageUrl(pageNumber), ->
+						pageNumber + 1
+
+		unless @hasNextPage()
+			li class: "disabled", ->
+				span "Next"
+		else
+			li ->
+				a href: @getNextPage(), ->
+					"Next"
 ###
