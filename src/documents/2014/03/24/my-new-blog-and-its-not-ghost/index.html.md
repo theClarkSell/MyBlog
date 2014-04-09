@@ -2,7 +2,7 @@
 ---
 "layout": "post"
 "title": "My new blog and it's not Ghost"
-"subTitle": "Why I decided to go file, new project and start all over with blogging."
+"subTitle": "Why I decided to go file, new project and start all over with blogging with DocPad."
 "date": "2014-3-24"
 "heroImageUrl": "header-image.jpg"
 "tags": ['Blog', 'Docpad']

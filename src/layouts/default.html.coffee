@@ -25,6 +25,8 @@ html ->
 
     text @getBlock('styles').add(@site.styles).toHTML()
 
+    @partial('AzureAnalytics')
+
   body ->
     div id: "bodyWrapper", ->
 
@@ -35,7 +37,7 @@ html ->
         text @content
 
       footer id: "footer", class: "text-right", ->
-        div id: "copyright", "Copyright 2014 #{@site.author} All Rights Reserved"
+        div id: "copyright", "Copyright " + @moment().format('YYYY') + " #{@site.author} - All Rights Reserved"
 
     text @getBlock('scripts').add(@site.scripts).toHTML()
     @partial('scripts')
