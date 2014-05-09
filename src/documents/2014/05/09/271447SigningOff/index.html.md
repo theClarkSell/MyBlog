@@ -1,6 +1,6 @@
 ---
 "layout": "post"
-"title": "271447 signing off"
+"title": "271,447 signing off"
 "subTitle": "After 9 years at Microsoft, it's time to depart."
 "date": "2014-5-9"
 "heroImageUrl": "header-image.jpg"
@@ -8,7 +8,7 @@
 "keywords": []
 ---
 
-WTF is 271,447 you ask? Well let me take just a moment and explain. You see, I am (or was) #271,447. I am the 271,447k person to get hired at Microsoft. Now I know what you're thinking, WAT 271,447k people have been hired at Microsoft, but then you should know that Microsoft will actually recycle employee numbers. Today I think things around around 600k which makes me the 271,447st UNIQUE person to get hired. Looking back it  appears that I've managed to become an old-timer without realizing it. Truth be told, I never thought I would last more than two years. Boy I guess, I was wrong.
+WTF is 271,447 you ask? Well let me take just a moment and explain. You see, I am (or was) #271,447. I am the 271,447st person to get hired at Microsoft. Now I know what you're thinking, WAT 271,447 people have been hired at Microsoft, but then you should know that Microsoft will actually recycle employee numbers. Today I think things around around 600k which makes me the 271,447st UNIQUE person to get hired. Looking back it  appears that I've managed to become an old-timer without realizing it. Truth be told, I never thought I would last more than two years. Boy I guess, I was wrong.
 
 As the title suggests, I'm leaving. I was told yesterday these types of posts really mean more to the person writing them, than they do to the readers reading them. Regardless, after 9 years of what can only be explained as some of the craziest moments in one's career, I've made the emotional decision and yet really exciting decision to move on. I leave on good terms, with fond memories, and no regrets.
 
