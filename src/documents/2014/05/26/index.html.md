@@ -12,7 +12,7 @@ Week 1 is officially over at [Telerik](http://telerik.com) and as expected, I su
 
 So, whatcha building then Clark? Well a year ago, I bought this kick ass whole house air fan made by [AirScape](http://www.airscapefans.com/products/Shop/Natural-Cooling/Whole-House-Fans/AirScape-4.4e-WHF). Now you might be looking at that saying, "yea that is a little overkill chief". Maybe, but there are two reasons I bought it:
 
-* Quite. I mean, really quite. No really, you have no clue just how quiet this thing really is.
+* Quiet. I mean, really quiet. No really, you have no clue just how quiet this thing really is.
 * It has a web server. Yes let me repeat, it has a web server. This puppy pushes air and angle brackets. FACT: before I even purchased it, the angle brackets were calling my name. 
 
 With all that I have going on right now, it seemed like a good time to finally take this little idea I've had and make it a reality. Now over the past year, I actually already wrote an neat little app for the Windows Phone. 
