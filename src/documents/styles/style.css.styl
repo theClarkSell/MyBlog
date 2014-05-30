@@ -47,16 +47,58 @@ body
 .resizeIcon
 	font-size 72px
 
+.navHome, .jumbotron
+	font-family "Montserrat","Helvetica","Arial","sans-serif"
+	//font-family "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans","Geneva","Verdana","sans-serif"
+	
 .jumbotron
-	font-family "Montserrat" "Helvetica" "Arial" "sans-serif"
 	padding-bottom 100px
 
-.jumbotron h1
+.jumbotron h1, .navHome .firstName
 	font-weight 700
+	font-style normal
+	letter-spacing -0.04em
+	font-size 50px
+	line-height 1.1
+	margin-bottom 8px
+
+.navHome .firstName, .navHome .lastName
+	font-size 30px
+	text-transform lowercase
+
+.navHome .lastName
+	font-weight 300
+	color rgba(255, 255, 255, 0.65)
+
+.jumbotron h2
+	letter-spacing -0.02em
+	font-weight 300
+	font-style normal
+	font-size 30px
+	line-height 1.1
+	color rgba(255, 255, 255, 0.65)
 
 .jumbotron, .navbar
 	background none
 	color #fff
+
+.jumbotron .headerArrow
+	content ''
+	display block
+	width 16px
+	height 16px
+	position relative
+	bottom -100px
+	left 50%
+	margin-left -8px
+	margin-bottom 50px
+	border 2px solid rgba(255,255,255,0.35)
+	background rgba(0,0,0,0)
+	border-left 0
+	border-top 0
+	outline none
+	transform rotate(45deg)
+	//cursor pointer
 
 .hero-unit
 	padding-top 25px
