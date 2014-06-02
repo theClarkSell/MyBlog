@@ -6,4 +6,5 @@
   	div class: "jumbotron", ->
     	div class: "container", ->
       	h1 @document.title
-      	p @document.subTitle or ''
+      	h2 @document.subTitle or ''
+      	span class: "headerArrow"

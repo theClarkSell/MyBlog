@@ -1,9 +1,9 @@
 nav class: "nav", ->
   div class: "navbar navbar-default navbar-static-top navbar-left", ->
     a class: "navbar-brand", href: "/", ->
-      div ->
-        span 'Clark'
-        span style: "font-weight: 100;", "Sell"
+      div class: "navHome", ->
+        span class: "firstName", 'Clark'
+        span class: "lastName", "Sell"
 
     button
       type: "button"
