@@ -6,7 +6,7 @@ heroImageUrl: "/images/headshot-bw-crop.jpg"
 ---
 
 div class: "hero-unit text-center", ->
-	p "I'm a proud husband, a father, a geek. I love to create; code, pixels, experiences and share them with others. I'm currently playing Program Manager at Microsoft. I founded an awesome conference, That Conference. Yes, That Conference. I wrench on old muscle cars and live in the great Midwest."
+	p "I'm a proud husband, a father, a geek. I love to create; code, pixels, experiences and share them with others. I'm a Product Manager at Telerik making developers even more awesome. I founded an awesome conference, That Conference. Yes, That Conference. I wrench on old muscle cars and live in the great Midwest."
 	p "Regardless, I'm just a guy."
 
 div class: "articleList", ->
