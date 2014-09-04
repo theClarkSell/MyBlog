@@ -2,7 +2,7 @@
 "layout": "post"
 "title": "p4merge, git, go now"
 "subTitle": "Wire up P4Merge in git for a three way merge."
-"date": "2014-3-26"
+"date": "2014-12-12"
 "heroImageUrl": "header-image.jpg"
 "tags": ['source control', 'git', 'merging']
 "keywords": []
